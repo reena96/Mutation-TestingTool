@@ -1,0 +1,86 @@
+Zpreparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing element() started
+testing element() finished
+Zpreparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing clear started
+testing clear finished
+Zpreparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing remove started
+testing remove finished
+Zpreparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing iterator started
+5a b c d e f g h i j k l m n o p q r s t u v w x y z 
+5a b c d e f g h i j k l m n o p q r s t u v w x y z 
+5a b c d e f g h i j k l m n o p q r s t u v w x y z 
+testing iterator finished
+O[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing clear
+O[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing indexOf
+	O[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+	testing remove started
+	true
+	testing remove finished
+
+O[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+
+testing get
+O[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+Test Iterator
+5a b c d e f g h i j k l m n o p q r s t u v w x y z 
+4a b c d e f g h i j k l m n o p q r s t u v w x y z Zpreparing  [z, y, x, w, v, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c, b, a]
+testing pop started
+testing pop finished
+Zpreparing  [z, y, x, w, v, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c, b, a]
+testing clear started
+testing clear finished
+Zpreparing  [z, y, x, w, v, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c, b, a]
+testing peek started
+testing peek finished
+Zpreparing  [z, y, x, w, v, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c, b, a]
+testing iterator started
+5z y x w v u t s r q p o n m l k j i h g f e d c b a 
+5z y x w v u t s r q p o n m l k j i h g f e d c b a 
+testing iterator finished
+O[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing clear
+O[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing indexOf
+O[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing remove started
+true
+testing remove finished
+O[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing get
+O[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+Test Iterator
+5a b c d e f g h i j k l m n o p q r s t u v w x y z 
+4a b c d e f g h i j k l m n o p q r s t u v w x y z Zpreparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing element() started
+testing element() finished
+Zpreparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing clear started
+testing clear finished
+Zpreparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing remove started
+testing remove finished
+Zpreparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing iterator started
+5a b c d e f g h i j k l m n o p q r s t u v w x y z 
+5a b c d e f g h i j k l m n o p q r s t u v w x y z 
+5a b c d e f g h i j k l m n o p q r s t u v w x y z 
+testing iterator finished
+Zpreparing  [z, y, x, w, v, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c, b, a]
+testing pop started
+testing pop finished
+Zpreparing  [z, y, x, w, v, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c, b, a]
+testing clear started
+testing clear finished
+Zpreparing  [z, y, x, w, v, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c, b, a]
+testing peek started
+testing peek finished
+ Zpreparing  [z, y, x, w, v, u, t, s, r, q, p, o, n, m, l, k, j, i, h, g, f, e, d, c, b, a]
+ testing iterator started
+ 5z y x w v u t s r q p o n m l k j i h g f e d c b a 
+ 5z y x w v u t s r q p o n m l k j i h g f e d c b a 
+ testing iterator finished

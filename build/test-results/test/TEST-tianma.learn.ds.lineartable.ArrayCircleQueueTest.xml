@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tianma.learn.ds.lineartable.ArrayCircleQueueTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-10-06T02:08:05" hostname="10-4-217-222.vlan869.client.wireless.uic.edu" time="0.005">
+  <properties/>
+  <testcase name="testElement" classname="tianma.learn.ds.lineartable.ArrayCircleQueueTest" time="0.002"/>
+  <testcase name="testClear" classname="tianma.learn.ds.lineartable.ArrayCircleQueueTest" time="0.001"/>
+  <testcase name="testRemove" classname="tianma.learn.ds.lineartable.ArrayCircleQueueTest" time="0.0"/>
+  <testcase name="testIterator" classname="tianma.learn.ds.lineartable.ArrayCircleQueueTest" time="0.002"/>
+  <system-out><![CDATA[preparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing element() started
+testing element() finished
+preparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing clear started
+testing clear finished
+preparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing remove started
+testing remove finished
+preparing  [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing iterator started
+a b c d e f g h i j k l m n o p q r s t u v w x y z 
+a b c d e f g h i j k l m n o p q r s t u v w x y z 
+a b c d e f g h i j k l m n o p q r s t u v w x y z 
+testing iterator finished
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

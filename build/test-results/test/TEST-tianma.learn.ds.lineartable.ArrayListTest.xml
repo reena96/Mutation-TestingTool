@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tianma.learn.ds.lineartable.ArrayListTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-10-06T02:08:05" hostname="10-4-217-222.vlan869.client.wireless.uic.edu" time="0.003">
+  <properties/>
+  <testcase name="testClear" classname="tianma.learn.ds.lineartable.ArrayListTest" time="0.001"/>
+  <testcase name="testIndexOf" classname="tianma.learn.ds.lineartable.ArrayListTest" time="0.0"/>
+  <testcase name="testRemove" classname="tianma.learn.ds.lineartable.ArrayListTest" time="0.0"/>
+  <testcase name="testSetGet" classname="tianma.learn.ds.lineartable.ArrayListTest" time="0.0"/>
+  <testcase name="testIterator" classname="tianma.learn.ds.lineartable.ArrayListTest" time="0.0"/>
+  <system-out><![CDATA[[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing clear
+[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing indexOf
+[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing remove started
+true
+testing remove finished
+[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+testing get
+[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+Test Iterator
+a b c d e f g h i j k l m n o p q r s t u v w x y z 
+a b c d e f g h i j k l m n o p q r s t u v w x y z ]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

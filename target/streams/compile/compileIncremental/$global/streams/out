@@ -1,0 +1,183 @@
+[debug] [naha] 
+[debug] [naha] Initial source changes: 
+[debug] [naha] 	removed:Set()
+[debug] [naha] 	added: Set(/Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/OptimizedBubbleSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SorterMain.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyStack.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/BinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyDoublyList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/BinarySearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/ThreadedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/Main.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/QuickSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/HeapSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/string/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/BalancedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SorterTester.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayCircleQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/ShellSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/string/main/StringMatchSample.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/BubbleSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedStack.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/InsertSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/main/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/Instrumentation.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/FibonacciSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/OptimizedLinearSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/Sorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/AVLTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/MergeSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/main/SimpleCalcutor.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/Tree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/LinearSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/Test.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/SortedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SelectionSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/InterpolateSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/OptimizedQuickSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/NonRecursiveMergeSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/Searcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayStack.java)
+[debug] [naha] 	modified: Set()
+[debug] [naha] Invalidated products: Set()
+[debug] [naha] External API changes: API Changes: Set()
+[debug] [naha] Modified binary dependencies: Set()
+[debug] [naha] Initial directly invalidated sources: Set(/Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/OptimizedBubbleSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SorterMain.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyStack.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/BinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyDoublyList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/BinarySearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/ThreadedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/Main.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/QuickSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/HeapSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/string/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/BalancedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SorterTester.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayCircleQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/ShellSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/string/main/StringMatchSample.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/BubbleSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedStack.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/InsertSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/main/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/Instrumentation.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/FibonacciSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/OptimizedLinearSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/Sorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/AVLTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/MergeSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/main/SimpleCalcutor.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/Tree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/LinearSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/Test.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/SortedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SelectionSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/InterpolateSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/OptimizedQuickSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/NonRecursiveMergeSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/Searcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayStack.java)
+[debug] [naha] 
+[debug] [naha] Sources indirectly invalidated by:
+[debug] [naha] 	product: Set()
+[debug] [naha] 	binary dep: Set()
+[debug] [naha] 	external source: Set()
+[debug] All initially invalidated sources: Set(/Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/OptimizedBubbleSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SorterMain.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyStack.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/BinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyDoublyList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/BinarySearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/ThreadedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/Main.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/QuickSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/HeapSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/string/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/BalancedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SorterTester.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayCircleQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/ShellSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/string/main/StringMatchSample.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/BubbleSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedStack.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/InsertSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/main/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/Instrumentation.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/FibonacciSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/OptimizedLinearSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/Sorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/AVLTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/MergeSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/main/SimpleCalcutor.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/Tree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/LinearSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/Test.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/SortedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SelectionSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/InterpolateSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/OptimizedQuickSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/NonRecursiveMergeSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/Searcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayStack.java)
+[debug] [naha] Initial set of included nodes: Set(/Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/OptimizedBubbleSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SorterMain.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyStack.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/BinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyDoublyList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/BinarySearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/ThreadedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/Main.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/QuickSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/HeapSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/string/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/BalancedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SorterTester.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayCircleQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/ShellSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/string/main/StringMatchSample.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/BubbleSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedStack.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/InsertSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/main/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/Instrumentation.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/FibonacciSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/OptimizedLinearSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/Sorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/AVLTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/MergeSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/main/SimpleCalcutor.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/Tree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/LinearSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyLinkedList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/Test.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/tree/SortedBinaryTree.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/SelectionSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/InterpolateSearcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/OptimizedQuickSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/sort/NonRecursiveMergeSorter.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyList.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/search/Searcher.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyQueue.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/package-info.java, /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/lineartable/MyArrayStack.java)
+[debug] [naha] Recompiling all 49 sources: invalidated sources (49) exceeded 50.0% of all sources
+[info] Compiling 49 Java sources to /Users/sharandec7/Desktop/CS474_HW2/DataStruc/target/scala-2.12/classes...
+[debug] Attempting to call com.sun.tools.javac.api.JavacTool@51144da directly...
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:7: package org.apache.commons.io does not exist
+[error] import org.apache.commons.io.FileUtils;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:8: package org.eclipse.jdt.core does not exist
+[error] import org.eclipse.jdt.core.JavaCore;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:9: package org.eclipse.jdt.core.compiler does not exist
+[error] import org.eclipse.jdt.core.compiler.IProblem;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:10: package org.eclipse.jdt.core.dom does not exist
+[error] import org.eclipse.jdt.core.dom.AST;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:11: package org.eclipse.jdt.core.dom does not exist
+[error] import org.eclipse.jdt.core.dom.ASTParser;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:12: package org.eclipse.jdt.core.dom does not exist
+[error] import org.eclipse.jdt.core.dom.CompilationUnit;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:13: package org.eclipse.jface.text does not exist
+[error] import org.eclipse.jface.text.BadLocationException;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:15: package org.eclipse.text.edits does not exist
+[error] import org.eclipse.text.edits.MalformedTreeException;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:29: cannot find symbol
+[error]   symbol:   class MalformedTreeException
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]     public void processJavaFile(File file) throws IOException, MalformedTreeException, BadLocationException {
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:29: cannot find symbol
+[error]   symbol:   class BadLocationException
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]     public void processJavaFile(File file) throws IOException, MalformedTreeException, BadLocationException {
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:4: package com.sun.tools.internal.ws.wsdl.document does not exist
+[error] import com.sun.tools.internal.ws.wsdl.document.Import;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:5: package org.eclipse.jdt.core.dom does not exist
+[error] import org.eclipse.jdt.core.dom.*;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:12: cannot find symbol
+[error]   symbol: class ASTVisitor
+[error] public class ASTVisitorClass extends ASTVisitor {
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:14: cannot find symbol
+[error]   symbol:   class ASTNode
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]     HashMap<ASTNode,String> hm = new HashMap<ASTNode, String>();
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:18: cannot find symbol
+[error]   symbol:   class TypeDeclaration
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]     public boolean visit(TypeDeclaration node) {
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:28: cannot find symbol
+[error]   symbol:   class MethodDeclaration
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]     public boolean visit(MethodDeclaration node) {
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:50: cannot find symbol
+[error]   symbol:   class VariableDeclarationFragment
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]     public boolean visit(VariableDeclarationFragment node) {
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java:3: package org.eclipse.jdt.core.dom does not exist
+[error] import org.eclipse.jdt.core.dom.*;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java:4: package org.eclipse.jface.text.projection does not exist
+[error] import org.eclipse.jface.text.projection.Fragment;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java:12: cannot find symbol
+[error]   symbol:   class CompilationUnit
+[error]   location: class tianma.learn.ds.AST.TraversalManager
+[error]     CompilationUnit unit;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java:14: cannot find symbol
+[error]   symbol:   class MethodDeclaration
+[error]   location: class tianma.learn.ds.AST.TraversalManager
+[error]     MethodDeclaration[] methodDeclarationList;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java:15: cannot find symbol
+[error]   symbol:   class FieldDeclaration
+[error]   location: class tianma.learn.ds.AST.TraversalManager
+[error]     FieldDeclaration[] fieldDeclarationList;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java:16: cannot find symbol
+[error]   symbol:   class VariableDeclarationFragment
+[error]   location: class tianma.learn.ds.AST.TraversalManager
+[error]     List<VariableDeclarationFragment> globalVariableFragmentList;
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java:19: cannot find symbol
+[error]   symbol:   class CompilationUnit
+[error]   location: class tianma.learn.ds.AST.TraversalManager
+[error]     public void calculateVariableScopes(CompilationUnit unit) {
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java:121: cannot find symbol
+[error]   symbol:   class CompilationUnit
+[error]   location: class tianma.learn.ds.AST.TraversalManager
+[error]     public void calculateExpressionStatements(CompilationUnit unit) {
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:59: cannot find symbol
+[error]   symbol:   class ASTParser
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]         ASTParser parser = ASTParser.newParser(AST.JLS4);
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:59: cannot find symbol
+[error]   symbol:   variable AST
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]         ASTParser parser = ASTParser.newParser(AST.JLS4);
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:59: cannot find symbol
+[error]   symbol:   variable ASTParser
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]         ASTParser parser = ASTParser.newParser(AST.JLS4);
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:62: cannot find symbol
+[error]   symbol:   variable JavaCore
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]         Map options = JavaCore.getOptions();
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:64: cannot find symbol
+[error]   symbol:   variable JavaCore
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]         JavaCore.setComplianceOptions(JavaCore.VERSION_1_7, options);
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:64: cannot find symbol
+[error]   symbol:   variable JavaCore
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]         JavaCore.setComplianceOptions(JavaCore.VERSION_1_7, options);
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:72: cannot find symbol
+[error]   symbol:   variable FileUtils
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]         parser.setSource(FileUtils.readFileToString(file).toCharArray());
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:73: cannot find symbol
+[error]   symbol:   class CompilationUnit
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]         final CompilationUnit unit = (CompilationUnit) parser.createAST(null);
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:73: cannot find symbol
+[error]   symbol:   class CompilationUnit
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]         final CompilationUnit unit = (CompilationUnit) parser.createAST(null);
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:80: cannot find symbol
+[error]   symbol:   class IProblem
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]         IProblem[] problems = unit.getProblems();
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java:83: cannot find symbol
+[error]   symbol:   class IProblem
+[error]   location: class tianma.learn.ds.AST.ASTTreeParse
+[error]             for (IProblem problem : problems) {
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:14: cannot find symbol
+[error]   symbol:   class ASTNode
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]     HashMap<ASTNode,String> hm = new HashMap<ASTNode, String>();
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:17: method does not override or implement a method from a supertype
+[error]     @Override
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:24: cannot find symbol
+[error]   symbol:   variable super
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]         return super.visit(node);
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:27: method does not override or implement a method from a supertype
+[error]     @Override
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:47: cannot find symbol
+[error]   symbol:   variable super
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]         return super.visit(node);
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:61: cannot find symbol
+[error]   symbol:   class FieldDeclaration
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]         if (node.getParent() instanceof FieldDeclaration){
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:62: cannot find symbol
+[error]   symbol:   class FieldDeclaration
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]             modifiers = ((FieldDeclaration)node.getParent()).getModifiers();
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:65: cannot find symbol
+[error]   symbol:   class ASTNode
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]                 hm.put((ASTNode)m.getKey(),node.getName().toString());
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:72: cannot find symbol
+[error]   symbol:   class VariableDeclarationStatement
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]         else if (node.getParent() instanceof VariableDeclarationStatement){
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java:73: cannot find symbol
+[error]   symbol:   class VariableDeclarationStatement
+[error]   location: class tianma.learn.ds.AST.ASTVisitorClass
+[error]             modifiers = ((VariableDeclarationStatement)node.getParent()).getModifiers();
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java:21: cannot find symbol
+[error]   symbol:   class ASTVisitor
+[error]   location: class tianma.learn.ds.AST.TraversalManager
+[error]         unit.accept(new ASTVisitor() {
+[error] /Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/tianma/learn/ds/AST/TraversalManager.java:122: cannot find symbol
+[error]   symbol:   class ASTVisitor
+[error]   location: class tianma.learn.ds.AST.TraversalManager
+[error]         unit.accept(new ASTVisitor() {
+[error] (compile:compileIncremental) javac returned nonzero exit code
