@@ -1,138 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db7bb1bb-630a-419e-8afb-3dbae9e67911" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_javaparser_java_symbol_solver_core_0_5_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_javaparser_java_symbol_solver_logic_0_5_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_javaparser_java_symbol_solver_model_0_5_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_javaparser_javaparser_core_3_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_21_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_javaslang_javaslang_2_0_0_beta.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_javaslang_javaslang_2_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_javaslang_javaslang_match_2_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_core_org_eclipse_core_commands_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_core_org_eclipse_core_contenttype_3_4_100.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_core_org_eclipse_core_expressions_3_4_300.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_core_org_eclipse_core_filesystem_1_3_100.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_core_org_eclipse_core_jobs_3_5_100.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_core_org_eclipse_core_resources_3_7_100.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_core_org_eclipse_core_runtime_3_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_equinox_org_eclipse_equinox_app_1_3_100.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_equinox_org_eclipse_equinox_common_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_equinox_org_eclipse_equinox_preferences_3_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_equinox_org_eclipse_equinox_registry_3_5_101.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jdt_core_compiler_ecj_4_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jdt_org_eclipse_jdt_annotation_2_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jdt_org_eclipse_jdt_core_3_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_osgi_org_eclipse_osgi_3_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_text_org_eclipse_text_3_5_101.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_19_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/DataStruc.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/DataStruc_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/DataStruc_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/Test_2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$2c218c9221aa855e2518$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$2c218c9221aa855e2518$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$2c218c9221aa855e2518.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$2c218c9221aa855e2518.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$8a405324da0fc0cc01ed$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$8a405324da0fc0cc01ed$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$8a405324da0fc0cc01ed$$anonfun$$sbtdef$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$8a405324da0fc0cc01ed$$anonfun$$sbtdef$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$8a405324da0fc0cc01ed$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$8a405324da0fc0cc01ed.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$8a405324da0fc0cc01ed.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a2649130d575373049f4$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a2649130d575373049f4$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a2649130d575373049f4.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a2649130d575373049f4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b1c7222af9a1bab9fae5$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b1c7222af9a1bab9fae5$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b1c7222af9a1bab9fae5.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b1c7222af9a1bab9fae5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b94c9d6e2ad8d4a32934$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b94c9d6e2ad8d4a32934$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b94c9d6e2ad8d4a32934.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b94c9d6e2ad8d4a32934.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$ba0b83c88fc19cb40b9a$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$ba0b83c88fc19cb40b9a$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$ba0b83c88fc19cb40b9a.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$ba0b83c88fc19cb40b9a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$ec54afe872259b6ad73e$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$ec54afe872259b6ad73e$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$ec54afe872259b6ad73e.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$ec54afe872259b6ad73e.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/ASTTreeParse.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/ASTTreeParse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraversalManager.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraversalManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraverseManager3$4$1.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraverseManager3$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraverseManager3$4$2.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraverseManager3$4$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraverseManager3$4$3.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraverseManager3$4$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraverseManager3$4.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraverseManager3$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraverseManager3.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/AST/TraverseManager3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/Test.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/sort/SorterMain.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/sort/SorterMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample$KMPStringMatcher.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample$KMPStringMatcher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample$OptimizedKMPStringMatcher.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample$OptimizedKMPStringMatcher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample$ViolentStringMatcher.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample$ViolentStringMatcher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java" afterPath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/TraversalManager.java" afterPath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/TraversalManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/TraverseManager3.java" afterPath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/TraverseManager3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Test.java" afterPath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Test_2.java" afterPath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Test_2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/sort/SorterMain.java" afterPath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/sort/SorterMain.java" />
+    <list default="true" id="614a9fa2-8dac-4dab-82f6-ab24e78107ef" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample_1$KMPStringMatcher.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample_1$KMPStringMatcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample_1$OptimizedKMPStringMatcher.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample_1$OptimizedKMPStringMatcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample_1$ViolentStringMatcher.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample_1$ViolentStringMatcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample_1.class" afterPath="$PROJECT_DIR$/out/production/classes/tianma/learn/ds/string/main/StringMatchSample_1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Launcher/Config.java" afterPath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Launcher/Config.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Launcher/TestInvoke.java" afterPath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Launcher/TestInvoke.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/string/main/StringMatchSample.java" afterPath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/string/main/StringMatchSample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/datastruc/datastruc$sources_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/datastruc/datastruc$sources_2.12/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/datastruc/datastruc$sources_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/datastruc/datastruc$sources_2.12/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/datastruc/datastruc_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/datastruc/datastruc_2.12/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/datastruc/datastruc_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/datastruc/datastruc_2.12/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-docs.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-sources.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc$sources_2.12-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-docs.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-sources.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/string/main/StringMatchSample_1.java" afterPath="$PROJECT_DIR$/src/main/java/tianma/learn/ds/string/main/StringMatchSample_1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -151,138 +30,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ASTTreeParse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java">
+      <file leaf-file-name="ASTVisitorClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="42" column="61" lean-forward="false" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
-              <folding>
-                <element signature="e#1098#1147#1" expanded="true" />
-                <element signature="e#1445#1526#1" expanded="true" />
-                <element signature="e#1535#1563#0" expanded="true" />
-                <element signature="e#1535#1563#0" expanded="true" />
-                <element signature="e#1573#1657#1" expanded="true" />
-                <element signature="e#1666#1692#1" expanded="true" />
-                <element signature="e#2277#2343#0" expanded="true" />
-                <element signature="e#2277#2343#0" expanded="true" />
-                <element signature="e#2498#2549#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TraverseManager3.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/TraverseManager3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
-              <folding>
-                <element signature="class#Scopetable#0;class#TraverseManager3#0" expanded="false" />
-                <element signature="method#calculateVariableScopes#0;class#TraverseManager3#0" expanded="false" />
-                <element signature="method#printTable#0;class#TraverseManager3#0" expanded="false" />
-                <element signature="method#createInstrumMethodNode#0;class#TraverseManager3#0" expanded="false" />
-                <element signature="method#addArguments#0;class#TraverseManager3#0" expanded="false" />
-                <element signature="method#addEachArgument#0;class#TraverseManager3#0" expanded="false" />
-                <element signature="method#getSimpleNames#0;class#TraverseManager3#0" expanded="false" />
-                <element signature="method#rewriteASTToFile#0;class#TraverseManager3#0" expanded="false" />
-                <element signature="e#12061#12099#1" expanded="true" />
-                <element signature="e#12108#12160#1" expanded="true" />
-                <element signature="e#12372#12445#1" expanded="true" />
-                <element signature="e#12395#12444#0" expanded="true" />
-                <element signature="e#12395#12444#0" expanded="true" />
-                <element signature="e#12458#12494#1" expanded="true" />
-                <element signature="method#injectInstrumentation#0;class#TraverseManager3#0" expanded="false" />
-                <element signature="e#14104#14148#1" expanded="true" />
-                <element signature="e#14207#14257#1" expanded="true" />
-                <element signature="e#14266#14316#1" expanded="true" />
-                <element signature="e#14325#14376#0" expanded="true" />
-                <element signature="e#14325#14376#0" expanded="true" />
-                <element signature="e#14386#14475#1" expanded="true" />
-                <element signature="e#14568#14639#1" expanded="true" />
-                <element signature="e#14589#14628#0" expanded="true" />
-                <element signature="e#14608#14627#0" expanded="true" />
-                <element signature="e#14608#14627#0" expanded="true" />
-                <element signature="e#14589#14628#0" expanded="true" />
-                <element signature="e#14589#14638#0" expanded="true" />
-                <element signature="e#14648#14722#1" expanded="true" />
-                <element signature="e#14697#14720#0" expanded="true" />
-                <element signature="e#14697#14720#0" expanded="true" />
-                <element signature="e#14900#14983#1" expanded="true" />
-                <element signature="e#17202#17275#1" expanded="true" />
-                <element signature="e#17231#17262#0" expanded="true" />
-                <element signature="e#17231#17262#0" expanded="true" />
-                <element signature="e#17309#17321#0" expanded="true" />
-                <element signature="e#17481#17500#0" expanded="true" />
-                <element signature="e#17481#17500#0" expanded="true" />
-                <element signature="e#19801#19884#1" expanded="true" />
-                <element signature="e#19917#19990#1" expanded="true" />
-                <element signature="e#20023#20149#1" expanded="true" />
-                <element signature="e#20182#20251#1" expanded="true" />
-                <element signature="e#20284#20400#1" expanded="true" />
-                <element signature="e#20433#20498#1" expanded="true" />
-                <element signature="e#22128#22180#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringMatchSample_1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/string/main/StringMatchSample_1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1218">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="e#871#880#0" expanded="true" />
-                <element signature="e#892#918#0" expanded="true" />
-                <element signature="e#948#982#1" expanded="true" />
-                <element signature="e#986#1021#1" expanded="true" />
-                <element signature="e#2427#2447#1" expanded="true" />
-                <element signature="e#2451#2478#1" expanded="true" />
-                <element signature="e#2482#2493#1" expanded="true" />
-                <element signature="e#2497#2507#1" expanded="true" />
-                <element signature="e#3346#3355#0" expanded="true" />
-                <element signature="e#3367#3401#1" expanded="true" />
-                <element signature="e#3405#3440#1" expanded="true" />
-                <element signature="e#3444#3466#1" expanded="true" />
-                <element signature="e#3470#3492#1" expanded="true" />
-                <element signature="e#3496#3522#1" expanded="true" />
-                <element signature="e#4775#4795#1" expanded="true" />
-                <element signature="e#4799#4826#1" expanded="true" />
-                <element signature="e#4830#4841#1" expanded="true" />
-                <element signature="e#4845#4855#1" expanded="true" />
-                <element signature="e#6084#6135#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/Test_2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="155">
+              <caret line="127" column="20" lean-forward="true" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SorterMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/sort/SorterMain.java">
+      <file leaf-file-name="TestInvoke.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/Launcher/TestInvoke.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="312">
+              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#926#950#1" expanded="true" />
-                <marker date="1510208034000" expanded="false" signature="161:166" ph="val" />
-                <marker date="1510208034000" expanded="false" signature="206:218" ph="val" />
-                <marker date="1510208034000" expanded="false" signature="864:869" ph="val" />
-                <marker date="1510208034000" expanded="false" signature="896:902" ph="val" />
-                <marker date="1510208034000" expanded="false" signature="958:961" ph="val" />
-                <marker date="1510208034000" expanded="false" signature="963:966" ph=" : [" />
-                <marker date="1510208034000" expanded="false" signature="967:973" ph=", " />
-                <marker date="1510208034000" expanded="false" signature="976:981" ph=")" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringMatchSample_1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/string/main/StringMatchSample_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/Launcher/Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -291,13 +76,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>intializers</find>
-      <find>test_2</find>
-      <find>_1.java</find>
-      <find>str</find>
-      <find>import</find>
-      <find>rec</find>
+      <find>voi</find>
+      <find>stat</find>
+      <find>static</find>
     </findStrings>
+    <replaceStrings>
+      <replace>public static</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -684,14 +469,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/TraversalManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Test_2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tianma/learn/ds/sort/SorterMain_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Launcher/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/tianma/learn/ds/string/main/StringMatchSample_1.java" />
         <option value="$PROJECT_DIR$/src/main/java/tianma/learn/ds/string/main/StringMatchSample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/TraverseManager3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tianma/learn/ds/Launcher/TestInvoke.java" />
       </list>
     </option>
   </component>
@@ -702,9 +483,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="823" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -721,52 +501,92 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="reena_mary_cs474_hw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reena_mary_cs474_hw3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="reena_mary_cs474_hw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reena_mary_cs474_hw3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="reena_mary_cs474_hw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reena_mary_cs474_hw3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="reena_mary_cs474_hw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reena_mary_cs474_hw3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="reena_mary_cs474_hw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reena_mary_cs474_hw3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ds" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="reena_mary_cs474_hw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reena_mary_cs474_hw3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="AST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reena_mary_cs474_hw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reena_mary_cs474_hw3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="Launcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reena_mary_cs474_hw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reena_mary_cs474_hw3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reena_mary_cs474_hw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reena_mary_cs474_hw3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -887,7 +707,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1510190532678" />
+    <option name="lastUpdateTimestamp" value="1510211510047" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -895,22 +715,19 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="db7bb1bb-630a-419e-8afb-3dbae9e67911" name="Default" comment="" />
-      <created>1510190531400</created>
+      <changelist id="614a9fa2-8dac-4dab-82f6-ab24e78107ef" name="Default" comment="" />
+      <created>1510211507680</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1510190531400</updated>
-      <workItem from="1510190532607" duration="7655000" />
+      <updated>1510211507680</updated>
+      <workItem from="1510211508904" duration="487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7655000" />
+    <option name="totallyTimeSpent" value="487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -921,27 +738,26 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JDT AST" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="JDT AST" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -950,6 +766,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -960,476 +777,129 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="7" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/TraversalManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/ASTVisitorClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4149">
-          <caret line="315" column="5" lean-forward="false" selection-start-line="315" selection-start-column="5" selection-end-line="315" selection-end-column="5" />
-          <folding>
-            <element signature="e#944#956#0" expanded="true" />
-            <element signature="e#1033#1049#0" expanded="true" />
-            <element signature="e#1532#1565#1" expanded="true" />
-            <element signature="e#1550#1564#0" expanded="true" />
-            <element signature="e#1582#1618#0" expanded="true" />
-            <element signature="e#1597#1617#0" expanded="true" />
-            <element signature="e#1582#1618#0" expanded="true" />
-            <element signature="e#1655#1740#0" expanded="true" />
-            <element signature="e#1655#1740#0" expanded="true" />
-            <element signature="e#1655#1740#0" expanded="true" />
-            <element signature="e#1716#1739#0" expanded="true" />
-            <element signature="e#1655#1740#0" expanded="true" />
-            <element signature="e#1899#1919#0" expanded="true" />
-            <element signature="e#1963#2043#0" expanded="true" />
-            <element signature="e#1963#2043#0" expanded="true" />
-            <element signature="e#1963#2043#0" expanded="true" />
-            <element signature="e#2019#2042#0" expanded="true" />
-            <element signature="e#1963#2043#0" expanded="true" />
-            <element signature="e#2166#2390#0" expanded="true" />
-            <element signature="e#2298#2312#0" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
-            <element signature="e#2413#9317#0" expanded="true" />
-            <element signature="e#2529#2586#0" expanded="true" />
-            <element signature="e#2539#2581#0" expanded="true" />
-            <element signature="e#2539#2581#0" expanded="true" />
-            <element signature="e#2539#2581#0" expanded="true" />
-            <element signature="e#2560#2574#0" expanded="true" />
-            <element signature="e#2539#2581#0" expanded="true" />
-            <element signature="e#2529#2586#0" expanded="true" />
-            <element signature="e#2529#2586#0" expanded="true" />
-            <element signature="e#2629#2646#0" expanded="true" />
-            <element signature="e#2669#2693#0" expanded="true" />
-            <element signature="e#2741#2800#0" expanded="true" />
-            <element signature="e#2751#2795#0" expanded="true" />
-            <element signature="e#2751#2795#0" expanded="true" />
-            <element signature="e#2751#2795#0" expanded="true" />
-            <element signature="e#2772#2788#0" expanded="true" />
-            <element signature="e#2751#2795#0" expanded="true" />
-            <element signature="e#2741#2800#0" expanded="true" />
-            <element signature="e#2741#2800#0" expanded="true" />
-            <element signature="e#2860#2876#0" expanded="true" />
-            <element signature="e#2899#2921#0" expanded="true" />
-            <element signature="e#3042#3078#0" expanded="true" />
-            <element signature="e#3235#3253#0" expanded="true" />
-            <element signature="e#3235#3269#0" expanded="true" />
-            <element signature="e#3347#3389#0" expanded="true" />
-            <element signature="e#3355#3373#0" expanded="true" />
-            <element signature="e#3355#3389#0" expanded="true" />
-            <element signature="e#3347#3389#0" expanded="true" />
-            <element signature="e#3453#3464#0" expanded="true" />
-            <element signature="e#3511#3523#0" expanded="true" />
-            <element signature="e#3533#3545#0" expanded="true" />
-            <element signature="e#3579#3628#0" expanded="true" />
-            <element signature="e#3589#3599#0" expanded="true" />
-            <element signature="e#3579#3628#0" expanded="true" />
-            <element signature="e#3579#3628#0" expanded="true" />
-            <element signature="e#3679#3751#0" expanded="true" />
-            <element signature="e#3689#3699#0" expanded="true" />
-            <element signature="e#3679#3751#0" expanded="true" />
-            <element signature="e#3712#3750#0" expanded="true" />
-            <element signature="e#3712#3724#0" expanded="true" />
-            <element signature="e#3712#3750#0" expanded="true" />
-            <element signature="e#3712#3750#0" expanded="true" />
-            <element signature="e#3679#3751#0" expanded="true" />
-            <element signature="e#3793#3803#1" expanded="true" />
-            <element signature="e#3788#9250#0" expanded="true" />
-            <element signature="e#3865#3917#1" expanded="true" />
-            <element signature="e#3788#9250#0" expanded="true" />
-            <element signature="e#3788#9250#0" expanded="true" />
-            <element signature="e#3938#3969#1" expanded="true" />
-            <element signature="e#3952#3968#0" expanded="true" />
-            <element signature="e#3990#4006#0" expanded="true" />
-            <element signature="e#4458#4516#1" expanded="true" />
-            <element signature="e#4471#4515#0" expanded="true" />
-            <element signature="e#4471#4515#0" expanded="true" />
-            <element signature="e#4471#4515#0" expanded="true" />
-            <element signature="e#4492#4508#0" expanded="true" />
-            <element signature="e#4471#4515#0" expanded="true" />
-            <element signature="e#4629#4643#0" expanded="true" />
-            <element signature="e#4629#4643#0" expanded="true" />
-            <element signature="e#4683#4728#0" expanded="true" />
-            <element signature="e#4683#4728#0" expanded="true" />
-            <element signature="e#4698#4711#0" expanded="true" />
-            <element signature="e#4698#4727#0" expanded="true" />
-            <element signature="e#4683#4728#0" expanded="true" />
-            <element signature="e#4812#4882#0" expanded="true" />
-            <element signature="e#4812#4882#0" expanded="true" />
-            <element signature="e#4827#4881#0" expanded="true" />
-            <element signature="e#4827#4841#0" expanded="true" />
-            <element signature="e#4827#4841#0" expanded="true" />
-            <element signature="e#4827#4881#0" expanded="true" />
-            <element signature="e#4827#4881#0" expanded="true" />
-            <element signature="e#4852#4865#0" expanded="true" />
-            <element signature="e#4852#4881#0" expanded="true" />
-            <element signature="e#4812#4882#0" expanded="true" />
-            <element signature="e#5123#6285#0" expanded="true" />
-            <element signature="e#5558#5672#1" expanded="true" />
-            <element signature="e#5571#5671#0" expanded="true" />
-            <element signature="e#5571#5671#0" expanded="true" />
-            <element signature="e#5571#5671#0" expanded="true" />
-            <element signature="e#5592#5608#0" expanded="true" />
-            <element signature="e#5571#5671#0" expanded="true" />
-            <element signature="e#5571#5671#0" expanded="true" />
-            <element signature="e#5624#5651#0" expanded="true" />
-            <element signature="e#5571#5671#0" expanded="true" />
-            <element signature="e#5797#5827#1" expanded="true" />
-            <element signature="e#5812#5826#0" expanded="true" />
-            <element signature="e#5812#5826#0" expanded="true" />
-            <element signature="e#5938#5983#0" expanded="true" />
-            <element signature="e#5938#5983#0" expanded="true" />
-            <element signature="e#5953#5966#0" expanded="true" />
-            <element signature="e#5953#5982#0" expanded="true" />
-            <element signature="e#5938#5983#0" expanded="true" />
-            <element signature="e#6083#6153#0" expanded="true" />
-            <element signature="e#6083#6153#0" expanded="true" />
-            <element signature="e#6098#6152#0" expanded="true" />
-            <element signature="e#6098#6112#0" expanded="true" />
-            <element signature="e#6098#6112#0" expanded="true" />
-            <element signature="e#6098#6152#0" expanded="true" />
-            <element signature="e#6098#6152#0" expanded="true" />
-            <element signature="e#6123#6136#0" expanded="true" />
-            <element signature="e#6123#6152#0" expanded="true" />
-            <element signature="e#6083#6153#0" expanded="true" />
-            <element signature="e#6284#6285#0" expanded="true" />
-            <element signature="e#6532#7696#0" expanded="true" />
-            <element signature="e#6967#7083#1" expanded="true" />
-            <element signature="e#6980#7082#0" expanded="true" />
-            <element signature="e#6980#7082#0" expanded="true" />
-            <element signature="e#6980#7082#0" expanded="true" />
-            <element signature="e#7001#7017#0" expanded="true" />
-            <element signature="e#6980#7082#0" expanded="true" />
-            <element signature="e#6980#7082#0" expanded="true" />
-            <element signature="e#7034#7062#0" expanded="true" />
-            <element signature="e#6980#7082#0" expanded="true" />
-            <element signature="e#7208#7238#1" expanded="true" />
-            <element signature="e#7223#7237#0" expanded="true" />
-            <element signature="e#7223#7237#0" expanded="true" />
-            <element signature="e#7349#7394#0" expanded="true" />
-            <element signature="e#7349#7394#0" expanded="true" />
-            <element signature="e#7364#7377#0" expanded="true" />
-            <element signature="e#7364#7393#0" expanded="true" />
-            <element signature="e#7349#7394#0" expanded="true" />
-            <element signature="e#7494#7564#0" expanded="true" />
-            <element signature="e#7494#7564#0" expanded="true" />
-            <element signature="e#7509#7563#0" expanded="true" />
-            <element signature="e#7509#7523#0" expanded="true" />
-            <element signature="e#7509#7523#0" expanded="true" />
-            <element signature="e#7509#7563#0" expanded="true" />
-            <element signature="e#7509#7563#0" expanded="true" />
-            <element signature="e#7534#7547#0" expanded="true" />
-            <element signature="e#7534#7563#0" expanded="true" />
-            <element signature="e#7494#7564#0" expanded="true" />
-            <element signature="e#7695#7696#0" expanded="true" />
-            <element signature="e#7950#9116#0" expanded="true" />
-            <element signature="e#8385#8503#1" expanded="true" />
-            <element signature="e#8398#8502#0" expanded="true" />
-            <element signature="e#8398#8502#0" expanded="true" />
-            <element signature="e#8398#8502#0" expanded="true" />
-            <element signature="e#8419#8435#0" expanded="true" />
-            <element signature="e#8398#8502#0" expanded="true" />
-            <element signature="e#8398#8502#0" expanded="true" />
-            <element signature="e#8452#8482#0" expanded="true" />
-            <element signature="e#8398#8502#0" expanded="true" />
-            <element signature="e#8628#8658#1" expanded="true" />
-            <element signature="e#8643#8657#0" expanded="true" />
-            <element signature="e#8643#8657#0" expanded="true" />
-            <element signature="e#8769#8814#0" expanded="true" />
-            <element signature="e#8769#8814#0" expanded="true" />
-            <element signature="e#8784#8797#0" expanded="true" />
-            <element signature="e#8784#8813#0" expanded="true" />
-            <element signature="e#8769#8814#0" expanded="true" />
-            <element signature="e#8914#8984#0" expanded="true" />
-            <element signature="e#8914#8984#0" expanded="true" />
-            <element signature="e#8929#8983#0" expanded="true" />
-            <element signature="e#8929#8943#0" expanded="true" />
-            <element signature="e#8929#8943#0" expanded="true" />
-            <element signature="e#8929#8983#0" expanded="true" />
-            <element signature="e#8929#8983#0" expanded="true" />
-            <element signature="e#8954#8967#0" expanded="true" />
-            <element signature="e#8954#8983#0" expanded="true" />
-            <element signature="e#8914#8984#0" expanded="true" />
-            <element signature="e#9115#9116#0" expanded="true" />
-            <element signature="e#9316#9317#0" expanded="true" />
-            <element signature="e#9419#9430#0" expanded="true" />
-            <element signature="e#9484#9514#0" expanded="true" />
-            <element signature="e#9504#9514#0" expanded="true" />
-            <element signature="e#9484#9514#0" expanded="true" />
-            <element signature="e#9548#9588#0" expanded="true" />
-            <element signature="e#9569#9581#0" expanded="true" />
-            <element signature="e#9548#9588#0" expanded="true" />
-            <element signature="e#9737#9799#1" expanded="true" />
-            <element signature="e#9809#9858#1" expanded="true" />
-            <element signature="e#9867#9904#0" expanded="true" />
-            <element signature="e#9867#9904#0" expanded="true" />
-            <element signature="e#9914#9968#0" expanded="true" />
-            <element signature="e#9914#9968#0" expanded="true" />
-            <element signature="e#9979#10027#1" expanded="true" />
-            <element signature="e#10036#10084#1" expanded="true" />
-            <element signature="e#10093#10141#1" expanded="true" />
-            <element signature="e#10150#10191#0" expanded="true" />
-            <element signature="e#10175#10190#0" expanded="true" />
-            <element signature="e#10175#10190#0" expanded="true" />
-            <element signature="e#10150#10191#0" expanded="true" />
-            <element signature="e#10201#10257#0" expanded="true" />
-            <element signature="e#10226#10256#0" expanded="true" />
-            <element signature="e#10226#10256#0" expanded="true" />
-            <element signature="e#10201#10257#0" expanded="true" />
-            <element signature="e#10267#10302#0" expanded="true" />
-            <element signature="e#10267#10302#0" expanded="true" />
-            <element signature="e#10312#10354#0" expanded="true" />
-            <element signature="e#10312#10354#0" expanded="true" />
-            <element signature="e#10364#10406#0" expanded="true" />
-            <element signature="e#10364#10406#0" expanded="true" />
-            <element signature="e#10416#10458#0" expanded="true" />
-            <element signature="e#10416#10458#0" expanded="true" />
-            <element signature="e#10617#10674#1" expanded="true" />
-            <element signature="e#10683#10731#0" expanded="true" />
-            <element signature="e#10683#10731#0" expanded="true" />
-            <element signature="e#10741#10792#0" expanded="true" />
-            <element signature="e#10741#10792#0" expanded="true" />
-            <element signature="e#10802#10861#1" expanded="true" />
-            <element signature="e#10870#10916#0" expanded="true" />
-            <element signature="e#10870#10916#0" expanded="true" />
-            <element signature="e#11060#11084#1" expanded="true" />
-            <element signature="e#11070#11083#0" expanded="true" />
-            <element signature="e#11093#11137#1" expanded="true" />
-            <element signature="e#11159#14495#0" expanded="true" />
-            <element signature="e#11287#11301#0" expanded="true" />
-            <element signature="e#11354#11371#0" expanded="true" />
-            <element signature="e#11395#11405#1" expanded="true" />
-            <element signature="e#11390#14428#0" expanded="true" />
-            <element signature="e#11467#11519#1" expanded="true" />
-            <element signature="e#11390#14428#0" expanded="true" />
-            <element signature="e#11390#14428#0" expanded="true" />
-            <element signature="e#11554#14408#0" expanded="true" />
-            <element signature="e#11695#11778#1" expanded="true" />
-            <element signature="e#11813#11824#0" expanded="true" />
-            <element signature="e#11827#11863#0" expanded="true" />
-            <element signature="e#12294#12357#1" expanded="true" />
-            <element signature="e#12311#12332#0" expanded="true" />
-            <element signature="e#12402#12450#1" expanded="true" />
-            <element signature="e#12426#12449#0" expanded="true" />
-            <element signature="e#12496#12563#1" expanded="true" />
-            <element signature="e#12532#12561#0" expanded="true" />
-            <element signature="e#12609#12725#1" expanded="true" />
-            <element signature="e#12790#12851#0" expanded="true" />
-            <element signature="e#12790#12851#0" expanded="true" />
-            <element signature="e#12899#12960#1" expanded="true" />
-            <element signature="e#13080#13103#0" expanded="true" />
-            <element signature="e#13166#13223#0" expanded="true" />
-            <element signature="e#13166#13223#0" expanded="true" />
-            <element signature="e#13166#13223#0" expanded="true" />
-            <element signature="e#13321#13359#0" expanded="true" />
-            <element signature="e#13495#13512#0" expanded="true" />
-            <element signature="e#13699#13777#1" expanded="true" />
-            <element signature="e#14067#14092#0" expanded="true" />
-            <element signature="e#14067#14092#0" expanded="true" />
-            <element signature="e#14067#14108#0" expanded="true" />
-            <element signature="e#14407#14408#0" expanded="true" />
-            <element signature="e#14494#14495#0" expanded="true" />
-            <element signature="e#14506#14524#1" expanded="true" />
-            <element signature="e#14680#14718#1" expanded="true" />
-            <element signature="e#14727#14779#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="155">
+          <caret line="127" column="20" lean-forward="true" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/sort/Sorter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/Launcher/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/Test_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/sort/SorterMain_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/ASTTreeParse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="42" column="61" lean-forward="false" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
-          <folding>
-            <element signature="e#1098#1147#1" expanded="true" />
-            <element signature="e#1445#1526#1" expanded="true" />
-            <element signature="e#1535#1563#0" expanded="true" />
-            <element signature="e#1535#1563#0" expanded="true" />
-            <element signature="e#1573#1657#1" expanded="true" />
-            <element signature="e#1666#1692#1" expanded="true" />
-            <element signature="e#2277#2343#0" expanded="true" />
-            <element signature="e#2277#2343#0" expanded="true" />
-            <element signature="e#2498#2549#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/string/main/StringMatchSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#835#844#0" expanded="true" />
-            <element signature="e#856#882#0" expanded="true" />
-            <element signature="e#912#946#1" expanded="true" />
-            <element signature="e#950#985#1" expanded="true" />
-            <element signature="e#1885#1905#1" expanded="true" />
-            <element signature="e#1909#1936#1" expanded="true" />
-            <element signature="e#1940#1951#1" expanded="true" />
-            <element signature="e#1955#1965#1" expanded="true" />
-            <element signature="e#2235#2244#0" expanded="true" />
-            <element signature="e#2256#2290#1" expanded="true" />
-            <element signature="e#2294#2329#1" expanded="true" />
-            <element signature="e#2333#2355#1" expanded="true" />
-            <element signature="e#2359#2381#1" expanded="true" />
-            <element signature="e#2385#2411#1" expanded="true" />
-            <element signature="e#3189#3209#1" expanded="true" />
-            <element signature="e#3213#3240#1" expanded="true" />
-            <element signature="e#3244#3255#1" expanded="true" />
-            <element signature="e#3259#3269#1" expanded="true" />
-            <element signature="e#3724#3775#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/Test_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="3024">
+          <caret line="168" column="10" lean-forward="false" selection-start-line="168" selection-start-column="10" selection-end-line="168" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/sort/SorterMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/Launcher/TestInvoke.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="312">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#926#950#1" expanded="true" />
-            <marker date="1510208034000" expanded="false" signature="161:166" ph="val" />
-            <marker date="1510208034000" expanded="false" signature="206:218" ph="val" />
-            <marker date="1510208034000" expanded="false" signature="864:869" ph="val" />
-            <marker date="1510208034000" expanded="false" signature="896:902" ph="val" />
-            <marker date="1510208034000" expanded="false" signature="958:961" ph="val" />
-            <marker date="1510208034000" expanded="false" signature="963:966" ph=" : [" />
-            <marker date="1510208034000" expanded="false" signature="967:973" ph=", " />
-            <marker date="1510208034000" expanded="false" signature="976:981" ph=")" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/string/main/StringMatchSample_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1218">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#871#880#0" expanded="true" />
-            <element signature="e#892#918#0" expanded="true" />
-            <element signature="e#948#982#1" expanded="true" />
-            <element signature="e#986#1021#1" expanded="true" />
-            <element signature="e#2427#2447#1" expanded="true" />
-            <element signature="e#2451#2478#1" expanded="true" />
-            <element signature="e#2482#2493#1" expanded="true" />
-            <element signature="e#2497#2507#1" expanded="true" />
-            <element signature="e#3346#3355#0" expanded="true" />
-            <element signature="e#3367#3401#1" expanded="true" />
-            <element signature="e#3405#3440#1" expanded="true" />
-            <element signature="e#3444#3466#1" expanded="true" />
-            <element signature="e#3470#3492#1" expanded="true" />
-            <element signature="e#3496#3522#1" expanded="true" />
-            <element signature="e#4775#4795#1" expanded="true" />
-            <element signature="e#4799#4826#1" expanded="true" />
-            <element signature="e#4830#4841#1" expanded="true" />
-            <element signature="e#4845#4855#1" expanded="true" />
-            <element signature="e#6084#6135#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tianma/learn/ds/AST/TraverseManager3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
-          <folding>
-            <element signature="class#Scopetable#0;class#TraverseManager3#0" expanded="false" />
-            <element signature="method#calculateVariableScopes#0;class#TraverseManager3#0" expanded="false" />
-            <element signature="method#printTable#0;class#TraverseManager3#0" expanded="false" />
-            <element signature="method#createInstrumMethodNode#0;class#TraverseManager3#0" expanded="false" />
-            <element signature="method#addArguments#0;class#TraverseManager3#0" expanded="false" />
-            <element signature="method#addEachArgument#0;class#TraverseManager3#0" expanded="false" />
-            <element signature="method#getSimpleNames#0;class#TraverseManager3#0" expanded="false" />
-            <element signature="method#rewriteASTToFile#0;class#TraverseManager3#0" expanded="false" />
-            <element signature="e#12061#12099#1" expanded="true" />
-            <element signature="e#12108#12160#1" expanded="true" />
-            <element signature="e#12372#12445#1" expanded="true" />
-            <element signature="e#12395#12444#0" expanded="true" />
-            <element signature="e#12395#12444#0" expanded="true" />
-            <element signature="e#12458#12494#1" expanded="true" />
-            <element signature="method#injectInstrumentation#0;class#TraverseManager3#0" expanded="false" />
-            <element signature="e#14104#14148#1" expanded="true" />
-            <element signature="e#14207#14257#1" expanded="true" />
-            <element signature="e#14266#14316#1" expanded="true" />
-            <element signature="e#14325#14376#0" expanded="true" />
-            <element signature="e#14325#14376#0" expanded="true" />
-            <element signature="e#14386#14475#1" expanded="true" />
-            <element signature="e#14568#14639#1" expanded="true" />
-            <element signature="e#14589#14628#0" expanded="true" />
-            <element signature="e#14608#14627#0" expanded="true" />
-            <element signature="e#14608#14627#0" expanded="true" />
-            <element signature="e#14589#14628#0" expanded="true" />
-            <element signature="e#14589#14638#0" expanded="true" />
-            <element signature="e#14648#14722#1" expanded="true" />
-            <element signature="e#14697#14720#0" expanded="true" />
-            <element signature="e#14697#14720#0" expanded="true" />
-            <element signature="e#14900#14983#1" expanded="true" />
-            <element signature="e#17202#17275#1" expanded="true" />
-            <element signature="e#17231#17262#0" expanded="true" />
-            <element signature="e#17231#17262#0" expanded="true" />
-            <element signature="e#17309#17321#0" expanded="true" />
-            <element signature="e#17481#17500#0" expanded="true" />
-            <element signature="e#17481#17500#0" expanded="true" />
-            <element signature="e#19801#19884#1" expanded="true" />
-            <element signature="e#19917#19990#1" expanded="true" />
-            <element signature="e#20023#20149#1" expanded="true" />
-            <element signature="e#20182#20251#1" expanded="true" />
-            <element signature="e#20284#20400#1" expanded="true" />
-            <element signature="e#20433#20498#1" expanded="true" />
-            <element signature="e#22128#22180#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="702">
+          <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DataStruc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.github.javaparser:java-symbol-solver-core:0.5.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
