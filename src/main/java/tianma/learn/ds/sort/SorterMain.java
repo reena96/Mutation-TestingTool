@@ -1,6 +1,7 @@
 package tianma.learn.ds.sort;
 
 import java.util.Random;
+import tianma.learn.ds.Template;
 
 public class SorterMain {
 

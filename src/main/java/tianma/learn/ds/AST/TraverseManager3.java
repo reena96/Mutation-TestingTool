@@ -263,7 +263,8 @@ public class TraverseManager3 {
             e.printStackTrace();
         }
         try {
-            File file = new File("./src/main/java/tianma/learn/ds/Test_2.java");
+            String new_file_name = "."+file_new.toString().split("\\.")[1]+"_1.java";
+            File file = new File(new_file_name);
             if (file.createNewFile()) {
                 System.out.println("File is created!");
             } else {
@@ -296,17 +297,24 @@ public class TraverseManager3 {
         listRewrite.insertBefore(statement1, addBeforeThisStatement, null);
     }
 
-    public void Instrument2(CompilationUnit unit, File file_new) throws IOException {
+    public void Instrument2(CompilationUnit unit, File file_new) throws IOException, BadLocationException {
 
-        System.out.println("This is TraverseManager3 section : ");
+        //System.out.println("This is TraverseManager3 section : ");
 
         this.unit = unit;
         AST ast = unit.getAST();
         ASTRewrite rewrite = ASTRewrite.create(ast);
 
-        // description of the change
+        //adding Template class import statement
+        ImportDeclaration id = ast.newImportDeclaration();
+        String classToImport = "tianma.learn.ds.Template";
+        id.setName(ast.newName(classToImport.split("\\.")));
+        ListRewrite unitRewrite = rewrite.getListRewrite(unit, CompilationUnit.IMPORTS_PROPERTY);
+        unitRewrite.insertLast(id,null);
+
+        // change class name to new class
         SimpleName oldName = ((TypeDeclaration) unit.types().get(0)).getName();
-        SimpleName newName = unit.getAST().newSimpleName("Test_2");
+        SimpleName newName = unit.getAST().newSimpleName(oldName.toString()+"_1");
         rewrite.replace(oldName, newName, null);
 
         unit.accept(new ASTVisitor() {
@@ -354,6 +362,10 @@ public class TraverseManager3 {
                             MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, statement_type, expression.toString());
 
                             List<Expression> arguments = ((MethodInvocation) expression).arguments();
+                            for (Expression e : arguments) {
+                                if ( e instanceof  ClassInstanceCreation || e instanceof  MethodInvocation)
+                                    arguments.remove(e);
+                            }
 
                             HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
                             arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, arguments);
@@ -398,7 +410,7 @@ public class TraverseManager3 {
 
                     ExpressionStatementVisitor esv = new ExpressionStatementVisitor();
 
-                    List<Expression> intializers = forStatement.initializers();
+                    List<Expression> initializers = forStatement.initializers();
                     List<Expression> updaters = forStatement.updaters();
                     Expression expression = forStatement.getExpression();
 
@@ -408,6 +420,7 @@ public class TraverseManager3 {
                         public boolean visit(Block block) {
 
                             if (block.getParent() == forStatement) {
+
                                 ListRewrite listRewrite = rewrite.getListRewrite(block, Block.STATEMENTS_PROPERTY);
                                 Statement addBeforeThisStatement = (Statement) block.statements().get(0);
                                 String statement_type = forStatement.getClass().toString().substring(forStatement.getClass().toString().lastIndexOf('.') + 1);
@@ -420,7 +433,7 @@ public class TraverseManager3 {
                                     expression.accept(esv);
                                     arguments_list = getSimpleNames(esv);
                                 }
-                                arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, intializers);
+                                arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, initializers);
                                 arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, updaters);
 
                                 methodInvocation = addArguments(ast, methodInvocation, arguments_list);

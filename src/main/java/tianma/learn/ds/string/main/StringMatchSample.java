@@ -1,5 +1,7 @@
 package tianma.learn.ds.string.main;
 
+
+
 /**
  * 字符串匹配Sample
  * <p>
@@ -8,7 +10,7 @@ package tianma.learn.ds.string.main;
  * 2. <a href="http://blog.csdn.net/v_july_v/article/details/7041827">KMP匹配 </a>
  * </br>
  * 3. 改进KMP匹配<br>
- * 
+ *
  * @author Tianma
  *
  */
@@ -17,7 +19,7 @@ public class StringMatchSample {
 	private interface StringMatcher {
 		/**
 		 * 从原字符串中查找模式字符串的位置,如果模式字符串存在,则返回模式字符串第一次出现的位置,否则返回-1
-		 * 
+		 *
 		 * @param source
 		 *            原字符串
 		 * @param pattern
@@ -63,7 +65,7 @@ public class StringMatchSample {
 
 	/**
 	 * KMP模式匹配
-	 * 
+	 *
 	 * @author Tianma
 	 *
 	 */
@@ -71,7 +73,7 @@ public class StringMatchSample {
 
 		/**
 		 * 获取KMP算法中pattern字符串对应的next数组
-		 * 
+		 *
 		 * @param p
 		 *            模式字符串对应的字符数组
 		 * @return
@@ -125,7 +127,7 @@ public class StringMatchSample {
 
 	/**
 	 * 优化的KMP算法(对next数组的获取进行优化)
-	 * 
+	 *
 	 * @author Tianma
 	 *
 	 */

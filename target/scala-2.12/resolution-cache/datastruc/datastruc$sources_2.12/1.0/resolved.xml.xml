@@ -4,7 +4,7 @@
 		module="datastruc$sources_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20171029231046"
+		publication="20171108192142"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

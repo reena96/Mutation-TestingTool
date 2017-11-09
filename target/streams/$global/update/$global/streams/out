@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/}datastruc_latest...
+[info] Updating {file:/Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/}saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish...
 [info] :: resolving dependencies :: datastruc#datastruc_2.12;1.0
 [info] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -406,7 +406,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.4!jline.jar
-[info] :: resolution report :: resolve 369ms :: artifacts dl 12ms
+[info] :: resolution report :: resolve 547ms :: artifacts dl 34ms
 [info] 	:: modules in use:
 [info] 	jline#jline;2.14.4 from sbt-chain in [scala-tool]
 [info] 	junit#junit;4.12 from sbt-chain in [compile, runtime, test, compile-internal, runtime-internal, test-internal]
@@ -433,18 +433,18 @@
 [info] 	|        pom       |   0   |   0   |   0   |   0   ||   0   |   0   |
 [info] 	|    scala-tool    |   5   |   0   |   0   |   0   ||   5   |   0   |
 [info] 	---------------------------------------------------------------------
-[debug] 	report for datastruc#datastruc_2.12;1.0 compile produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-compile.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 runtime produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-runtime.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 test produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-test.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 provided produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-provided.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 optional produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-optional.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 compile-internal produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-compile-internal.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 runtime-internal produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-runtime-internal.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 test-internal produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-test-internal.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 plugin produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-plugin.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 sources produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-sources.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 docs produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-docs.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 pom produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-pom.xml
-[debug] 	report for datastruc#datastruc_2.12;1.0 scala-tool produced in /Users/sharandec7/Desktop/Desktop_All/OOLE_All/CS474_HW2/DataStruc_latest/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-scala-tool.xml
-[debug] 	resolve done (369ms resolve - 12ms download)
+[debug] 	report for datastruc#datastruc_2.12;1.0 compile produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-compile.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 runtime produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-runtime.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 test produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-test.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 provided produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-provided.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 optional produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-optional.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 compile-internal produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-compile-internal.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 runtime-internal produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-runtime-internal.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 test-internal produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-test-internal.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 plugin produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-plugin.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 sources produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-sources.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 docs produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-docs.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 pom produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-pom.xml
+[debug] 	report for datastruc#datastruc_2.12;1.0 scala-tool produced in /Users/sharandec7/Desktop/saisharan_nagulapalli_reenamary_puthota_tathagata_ganguly_vish/target/scala-2.12/resolution-cache/reports/datastruc-datastruc_2.12-scala-tool.xml
+[debug] 	resolve done (547ms resolve - 34ms download)
 [info] Done updating.

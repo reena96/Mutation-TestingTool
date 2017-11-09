@@ -16,7 +16,7 @@ import java.util.*;
 
 public class TraversalManager {
 
-    /*
+
     public class Scopetable {
         int linenumber;
         String path, scope, variables;
@@ -194,8 +194,7 @@ public class TraversalManager {
     }
 
 
-    public MethodInvocation createInstrumMethodNode(AST ast, int linenumber, String statement_type, String statement )
-    {
+    public MethodInvocation createInstrumMethodNode(AST ast, int linenumber, String statement_type, String statement) {
         MethodInvocation methodInvocation = ast.newMethodInvocation();
 
         SimpleName qName = ast.newSimpleName("Template");
@@ -205,7 +204,7 @@ public class TraversalManager {
         StringLiteral literal1 = ast.newStringLiteral();
         StringLiteral literal2 = ast.newStringLiteral();
         StringLiteral literal3 = ast.newStringLiteral();
-        literal1.setLiteralValue(linenumber+"");
+        literal1.setLiteralValue(linenumber + "");
         literal2.setLiteralValue(String.valueOf(statement_type));
         literal3.setLiteralValue(statement);
         methodInvocation.arguments().add(literal1);
@@ -260,13 +259,13 @@ public class TraversalManager {
 
                                             MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, statement_type, assignment.toString());
 
-                                            System.out.println("------------"+methodInvocation.toString()+"------------");
+                                            System.out.println("------------" + methodInvocation.toString() + "------------");
 
                                             HashMap<String, SimpleName> arguments_list = new HashMap<>();
 
                                             assignment.accept(esv);
 
-                                            for (SimpleName variableName :esv.list) {
+                                            for (SimpleName variableName : esv.list) {
                                                 arguments_list.put(variableName.toString(), variableName);
                                             }
 
@@ -314,5 +313,5 @@ public class TraversalManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }*/
+    }
 }
