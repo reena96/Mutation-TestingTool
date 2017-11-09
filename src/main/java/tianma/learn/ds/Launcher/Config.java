@@ -1,4 +1,4 @@
-package tianma.learn.ds;
+package tianma.learn.ds.Launcher;
 
 import tianma.learn.ds.sort.BubbleSorter;
 
@@ -9,7 +9,7 @@ public class Config {
     }
 
     static class StringMatchSample{
-        static String source = "OCCURENCE";
-        static String pattern = "OCCURRANCE";
+        static String source = "REENA MARY PUTHOTA";
+        static String pattern = "REENA";
     }
 }

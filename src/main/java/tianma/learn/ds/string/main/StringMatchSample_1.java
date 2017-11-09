@@ -37,7 +37,7 @@ public class StringMatchSample_1 {
 	 * <p>
 	 * 时间复杂度: O(m*n), m = pattern.length, n = source.length
 	 */
-	static class ViolentStringMatcher implements StringMatcher {
+	public static class ViolentStringMatcher implements StringMatcher {
 
 		@Override
 		public int indexOf(String source, String pattern) {
@@ -81,7 +81,7 @@ public class StringMatchSample_1 {
 	 * @author Tianma
 	 *
 	 */
-	static class KMPStringMatcher implements StringMatcher {
+	public static class KMPStringMatcher implements StringMatcher {
 
 		/**
 		 * 获取KMP算法中pattern字符串对应的next数组
@@ -164,7 +164,7 @@ public class StringMatchSample_1 {
 	 * @author Tianma
 	 *
 	 */
-	static class OptimizedKMPStringMatcher extends KMPStringMatcher {
+	public static class OptimizedKMPStringMatcher extends KMPStringMatcher {
 
 		@Override
 		protected int[] getNext(char[] p) {
