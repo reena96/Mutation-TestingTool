@@ -1,4 +1,4 @@
-package tianma.learn.ds.AST;
+/*package tianma.learn.ds.AST;
 
 import org.apache.commons.io.FileUtils;
 import org.eclipse.jdt.core.*;
@@ -314,4 +314,4 @@ public class TraversalManager {
             e.printStackTrace();
         }
     }
-}
+}*/

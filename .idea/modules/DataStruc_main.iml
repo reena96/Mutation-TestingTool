@@ -29,12 +29,12 @@
     <orderEntry type="library" name="Gradle: com.github.javaparser:java-symbol-solver-logic:0.5.5" level="project" />
     <orderEntry type="library" name="Gradle: io.javaslang:javaslang:2.0.3" level="project" />
     <orderEntry type="library" name="Gradle: com.github.javaparser:java-symbol-solver-model:0.5.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.javassist:javassist:3.19.0-GA" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:21.0" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.core:org.eclipse.core.commands:3.6.0" level="project" />
     <orderEntry type="library" name="Gradle: com.javaslang:javaslang:2.0.0-beta" level="project" />
     <orderEntry type="library" name="Gradle: io.javaslang:javaslang-match:2.0.3" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.core:org.eclipse.core.resources:3.7.100" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.core:org.eclipse.core.expressions:3.4.300" level="project" />
+    <orderEntry type="library" name="Gradle: org.javassist:javassist:3.19.0-GA" level="project" />
   </component>
 </module>
