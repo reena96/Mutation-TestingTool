@@ -49,8 +49,8 @@ public class StringMatchSample_1 {
 				Template.instrum(
 						"46",
 						"tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf",
-						"WhileStatement", "i < sLen && j < pLen", "&&", "pLen",
-						pLen, "sLen", sLen, "i", i, "j", j);
+						"WhileStatement", "i < sLen && j < pLen", "&&@<@<",
+						"pLen", pLen, "sLen", sLen, "i", i, "j", j);
 				if (src[i] == ptn[j]) {
 					Template.instrum(
 							"47",
@@ -75,13 +75,13 @@ public class StringMatchSample_1 {
 					Template.instrum(
 							"54",
 							"tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf",
-							"Assignment", "i=i - j + 1", "=:|:+", "i", i, "j",
-							j);
+							"Assignment", "i=i - j + 1", "+@-@+@-=", "i", i,
+							"j", j);
 					j = 0;
 					Template.instrum(
 							"55",
 							"tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf",
-							"Assignment", "j=0", "=", "j", j);
+							"Assignment", "j=0", "@=", "j", j);
 				}
 			}
 			// 匹配成功,则返回模式字符串在原字符串中首次出现的位置;否则返回-1
@@ -121,19 +121,19 @@ public class StringMatchSample_1 {
 			Template.instrum(
 					"91",
 					"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
-					"Assignment", "next[0]=-1", "=", "next", next);
+					"Assignment", "next[0]=-1", "@=", "next", next);
 			while (j < pLen - 1) {
 				Template.instrum(
 						"92",
 						"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
-						"WhileStatement", "j < pLen - 1", "<", "pLen", pLen,
+						"WhileStatement", "j < pLen - 1", "<@-", "pLen", pLen,
 						"j", j);
 				if (k == -1 || p[j] == p[k]) {
 					Template.instrum(
 							"93",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
-							"IfStatement", "k == -1 || p[j] == p[k]", "||",
-							"p", p, "j", j, "k", k);
+							"IfStatement", "k == -1 || p[j] == p[k]",
+							"||@==@==", "p", p, "j", j, "k", k);
 					k++;
 					Template.instrum(
 							"94",
@@ -148,14 +148,14 @@ public class StringMatchSample_1 {
 					Template.instrum(
 							"96",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
-							"Assignment", "next[j]=k", "=", "next", next, "j",
+							"Assignment", "next[j]=k", "@=", "next", next, "j",
 							j, "k", k);
 				} else {
 					k = next[k];
 					Template.instrum(
 							"98",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
-							"Assignment", "k=next[k]", "=", "next", next, "k",
+							"Assignment", "k=next[k]", "@=", "next", next, "k",
 							k);
 				}
 			}
@@ -174,15 +174,15 @@ public class StringMatchSample_1 {
 				Template.instrum(
 						"112",
 						"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.indexOf",
-						"WhileStatement", "i < sLen && j < pLen", "&&", "pLen",
-						pLen, "sLen", sLen, "i", i, "j", j);
+						"WhileStatement", "i < sLen && j < pLen", "&&@<@<",
+						"pLen", pLen, "sLen", sLen, "i", i, "j", j);
 				// 如果j = -1,或者当前字符匹配成功(src[i] = ptn[j]),都让i++,j++
 				if (j == -1 || src[i] == ptn[j]) {
 					Template.instrum(
 							"114",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.indexOf",
-							"IfStatement", "j == -1 || src[i] == ptn[j]", "||",
-							"src", src, "i", i, "j", j, "ptn", ptn);
+							"IfStatement", "j == -1 || src[i] == ptn[j]",
+							"||@==@==", "src", src, "i", i, "j", j, "ptn", ptn);
 					i++;
 					Template.instrum(
 							"115",
@@ -199,7 +199,7 @@ public class StringMatchSample_1 {
 					Template.instrum(
 							"119",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.indexOf",
-							"Assignment", "j=next[j]", "=", "next", next, "j",
+							"Assignment", "j=next[j]", "@=", "next", next, "j",
 							j);
 				}
 			}
@@ -229,29 +229,28 @@ public class StringMatchSample_1 {
 			int k = -1;
 			int j = 0;
 			next[0] = -1; // next数组中next[0]为-1
-			Template.instrum(
-					"147",
+			Template.instrum("147",
 					"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-					"Assignment", "next[0]=-1", "=", "next", next);
+					"Assignment", "next[0]=-1", "@=", "next", next);
 			while (j < pLen - 1) {
 				Template.instrum(
 						"148",
 						"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-						"WhileStatement", "j < pLen - 1", "<", "pLen", pLen,
+						"WhileStatement", "j < pLen - 1", "<@-", "pLen", pLen,
 						"j", j);
 				if (k == -1 || p[j] == p[k]) {
 					Template.instrum(
 							"149",
 							"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-							"IfStatement", "k == -1 || p[j] == p[k]", "||",
-							"p", p, "j", j, "k", k);
+							"IfStatement", "k == -1 || p[j] == p[k]",
+							"||@==@==", "p", p, "j", j, "k", k);
 					k++;
 					Template.instrum(
 							"150",
 							"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
 							"PostfixExpression", "k++", "++", "k", k);
 					j++;
- 					Template.instrum(
+					Template.instrum(
 							"151",
 							"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
 							"PostfixExpression", "j++", "++", "j", j);
@@ -266,7 +265,7 @@ public class StringMatchSample_1 {
 						Template.instrum(
 								"154",
 								"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-								"Assignment", "next[j]=k", "=", "next", next,
+								"Assignment", "next[j]=k", "@=", "next", next,
 								"j", j, "k", k);
 					} else {
 						// 不能出现p[j] = p[next[j]],所以如果出现这种情况则继续递归,如 k = next[k],
@@ -275,7 +274,7 @@ public class StringMatchSample_1 {
 						Template.instrum(
 								"158",
 								"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-								"Assignment", "next[j]=next[k]", "=", "next",
+								"Assignment", "next[j]=next[k]", "@=", "next",
 								next, "j", j, "k", k);
 					}
 				} else {
@@ -283,7 +282,7 @@ public class StringMatchSample_1 {
 					Template.instrum(
 							"161",
 							"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-							"Assignment", "k=next[k]", "=", "next", next, "k",
+							"Assignment", "k=next[k]", "@=", "next", next, "k",
 							k);
 				}
 			}

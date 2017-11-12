@@ -36,19 +36,22 @@ public class Launcher {
             public boolean visit(MethodDeclaration methodDeclaration) {
 
                 String methodDeclaration_name =  methodDeclaration.resolveBinding().getDeclaringClass().getQualifiedName();
-                if(methodDeclaration_name.equals(method_name)){
+                if(methodDeclaration_name.equals(method_name)) {
 
-                    methodDeclaration.accept(new ASTVisitor() {
-                        @Override
-                        public boolean visit(WhileStatement whileStatement) {
-                            if (whileStatement.getExpression().toString().equals(expression)) {
-                                String new_expression = expression.replaceFirst("<",">");
-                                String new_while_statement = whileStatement.toString().replace(expression, new_expression);
-                                System.out.println(new_while_statement);
+                    if(statement_type.equals("WhileStatement")) {
+                        methodDeclaration.accept(new ASTVisitor() {
+                            @Override
+                            public boolean visit(WhileStatement whileStatement) {
+                                if (whileStatement.getExpression().toString().equals(expression)) {
+                                    String new_expression = expression.replaceFirst("<", ">");
+                                    String new_while_statement = whileStatement.toString().replace(expression, new_expression);
+                                    System.out.println(new_while_statement);
+                                }
+                                return super.visit(whileStatement);
                             }
-                            return super.visit(whileStatement);
-                        }
-                    });
+
+                        });
+                    }
                 }
                 
                 return super.visit(methodDeclaration);
