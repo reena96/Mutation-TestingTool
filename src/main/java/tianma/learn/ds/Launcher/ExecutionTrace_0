@@ -1,0 +1,20 @@
+46,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,WhileStatement,i < sLen && j < pLen,&&@<@<, , pLen , 5 , sLen , 18 , i , 0 , j , 0
+47,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,IfStatement,src[i] == ptn[j],==, , src , [C@4d5687a9 , i , 0 , j , 0 , ptn , [C@49690adb
+49,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,PostfixExpression,i++,++, , i , 1
+50,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,PostfixExpression,j++,++, , j , 1
+46,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,WhileStatement,i < sLen && j < pLen,&&@<@<, , pLen , 5 , sLen , 18 , i , 1 , j , 1
+47,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,IfStatement,src[i] == ptn[j],==, , src , [C@4d5687a9 , i , 1 , j , 1 , ptn , [C@49690adb
+49,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,PostfixExpression,i++,++, , i , 2
+50,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,PostfixExpression,j++,++, , j , 2
+46,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,WhileStatement,i < sLen && j < pLen,&&@<@<, , pLen , 5 , sLen , 18 , i , 2 , j , 2
+47,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,IfStatement,src[i] == ptn[j],==, , src , [C@4d5687a9 , i , 2 , j , 2 , ptn , [C@49690adb
+49,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,PostfixExpression,i++,++, , i , 3
+50,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,PostfixExpression,j++,++, , j , 3
+46,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,WhileStatement,i < sLen && j < pLen,&&@<@<, , pLen , 5 , sLen , 18 , i , 3 , j , 3
+47,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,IfStatement,src[i] == ptn[j],==, , src , [C@4d5687a9 , i , 3 , j , 3 , ptn , [C@49690adb
+49,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,PostfixExpression,i++,++, , i , 4
+50,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,PostfixExpression,j++,++, , j , 4
+46,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,WhileStatement,i < sLen && j < pLen,&&@<@<, , pLen , 5 , sLen , 18 , i , 4 , j , 4
+47,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,IfStatement,src[i] == ptn[j],==, , src , [C@4d5687a9 , i , 4 , j , 4 , ptn , [C@49690adb
+49,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,PostfixExpression,i++,++, , i , 5
+50,tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf,PostfixExpression,j++,++, , j , 5
