@@ -196,7 +196,7 @@ public class TraverseManager3 {
         }
     }
 
-    public MethodInvocation createInstrumMethodNode(AST ast, int linenumber, String statement_type, String statement) {
+    public MethodInvocation createInstrumMethodNode(AST ast, int linenumber, String methodDeclaration_name, String statement_type, String statement, String operator_list) {
 
         MethodInvocation methodInvocation = ast.newMethodInvocation();
 
@@ -204,15 +204,23 @@ public class TraverseManager3 {
         methodInvocation.setExpression(qName);
         methodInvocation.setName(ast.newSimpleName("instrum"));
 
-        StringLiteral literal1 = ast.newStringLiteral();
-        StringLiteral literal2 = ast.newStringLiteral();
-        StringLiteral literal3 = ast.newStringLiteral();
-        literal1.setLiteralValue(linenumber + "");
-        literal2.setLiteralValue(String.valueOf(statement_type));
-        literal3.setLiteralValue(statement);
-        methodInvocation.arguments().add(literal1);
-        methodInvocation.arguments().add(literal2);
-        methodInvocation.arguments().add(literal3);
+        StringLiteral lineNumber = ast.newStringLiteral();
+        StringLiteral methodDeclarationName = ast.newStringLiteral();
+        StringLiteral statementType = ast.newStringLiteral();
+        StringLiteral expression = ast.newStringLiteral();
+        StringLiteral operatorList = ast.newStringLiteral();
+        
+        lineNumber.setLiteralValue(linenumber + "");
+        methodDeclarationName.setLiteralValue(methodDeclaration_name);
+        statementType.setLiteralValue(String.valueOf(statement_type));
+        expression.setLiteralValue(statement);
+        operatorList.setLiteralValue(operator_list);
+        
+        methodInvocation.arguments().add(lineNumber);
+        methodInvocation.arguments().add(methodDeclarationName);
+        methodInvocation.arguments().add(statementType);
+        methodInvocation.arguments().add(expression);
+        methodInvocation.arguments().add(operatorList);
 
         return methodInvocation;
     }
@@ -277,7 +285,7 @@ public class TraverseManager3 {
 
     }
 
-    public void injectInstrumentation(AST ast, ASTRewrite rewrite, Block block, Statement statement, Expression expression, ExpressionStatementVisitor esv) {
+    public void injectInstrumentation(AST ast, ASTRewrite rewrite, Block block, String methodDeclaration_name, Statement statement, Expression expression, String operator_list, ExpressionStatementVisitor esv) {
 
         ListRewrite listRewrite = rewrite.getListRewrite(block, Block.STATEMENTS_PROPERTY);
         Statement addBeforeThisStatement = (Statement) block.statements().get(0);
@@ -286,7 +294,7 @@ public class TraverseManager3 {
 
         int lineNumber = unit.getLineNumber(statement.getStartPosition());
 
-        MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, statement_type, expression.toString());
+        MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name, statement_type, expression.toString(), operator_list);
 
         expression.accept(esv);
         HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
@@ -295,6 +303,14 @@ public class TraverseManager3 {
 
         ExpressionStatement statement1 = ast.newExpressionStatement(methodInvocation);
         listRewrite.insertBefore(statement1, addBeforeThisStatement, null);
+    }
+
+    public String addOperatorToOperatorList(String operatorList, String operator) {
+        if(!operatorList.isEmpty())
+            operatorList = operatorList+":|:"+operator;
+        else
+            operatorList = operator;
+        return operatorList;
     }
 
     public void Instrument2(CompilationUnit unit, File file_new) throws IOException, BadLocationException {
@@ -320,159 +336,247 @@ public class TraverseManager3 {
         unit.accept(new ASTVisitor() {
 
             @Override
-            public boolean visit(Block block) {
+            public boolean visit(MethodDeclaration methodDeclaration) {
 
-                ListRewrite listRewrite = rewrite.getListRewrite(block, Block.STATEMENTS_PROPERTY);
+                String methodDeclaration_name = methodDeclaration.resolveBinding().getDeclaringClass().getQualifiedName()+"." + methodDeclaration.getName();
+                //System.out.println(methodDeclaration_name);
+                
+                methodDeclaration.accept(new ASTVisitor() {
 
-                for (Statement currentStatement : (List<Statement>) block.statements()) {
+                    @Override
+                    public boolean visit(Block block) {
 
-                    if (currentStatement instanceof ExpressionStatement) {
+                        ListRewrite listRewrite = rewrite.getListRewrite(block, Block.STATEMENTS_PROPERTY);
 
-                        ExpressionStatementVisitor esv = new ExpressionStatementVisitor();
+                        for (Statement currentStatement : (List<Statement>) block.statements()) {
 
-                        Expression expression = ((ExpressionStatement) currentStatement).getExpression();
-                        if (expression.toString().contains("System.out.println")) {
-                            continue;
-                        }
-                        if (!(expression instanceof MethodInvocation)) {
+                            if (currentStatement instanceof ExpressionStatement) {
 
-                            String statement_type = expression.getClass().toString().substring(expression.getClass().toString().lastIndexOf('.') + 1);
+                                ExpressionStatementVisitor esv = new ExpressionStatementVisitor();
 
-                            if (!(expression instanceof Assignment && ((Assignment) expression).getRightHandSide() instanceof ClassInstanceCreation)) {
+                                Expression expression = ((ExpressionStatement) currentStatement).getExpression();
+                                if (expression.toString().contains("System.out.println")) {
+                                    continue;
+                                }
 
-                                int lineNumber = unit.getLineNumber(expression.getStartPosition());
-
-                                MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, statement_type, expression.toString());
-
-                                expression.accept(esv);
-                                HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
-
-                                methodInvocation = addArguments(ast, methodInvocation, arguments_list);
-
-                                ExpressionStatement statement1 = ast.newExpressionStatement(methodInvocation);
-                                listRewrite.insertAfter(statement1, currentStatement, null);
-                            }
-                        }
-                        else if (expression instanceof MethodInvocation && ((MethodInvocation) expression).arguments() != null) {
-
-                            String statement_type = expression.getClass().toString().substring(expression.getClass().toString().lastIndexOf('.') + 1);
-
-                            int lineNumber = unit.getLineNumber(expression.getStartPosition());
-
-                            MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, statement_type, expression.toString());
-
-                            List<Expression> arguments = ((MethodInvocation) expression).arguments();
-                            for (Expression e : arguments) {
-                                if ( e instanceof  ClassInstanceCreation || e instanceof  MethodInvocation)
-                                    arguments.remove(e);
-                            }
-
-                            HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
-                            arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, arguments);
-
-                            methodInvocation = addArguments(ast, methodInvocation, arguments_list);
-
-                            ExpressionStatement statement1 = ast.newExpressionStatement(methodInvocation);
-                            listRewrite.insertAfter(statement1, currentStatement, null);
-                        }
-                    }
-                }
-                return super.visit(block);
-            }
-
-            @Override
-            public boolean visit(WhileStatement whileStatement) {
-
-                if (whileStatement.getBody() != null) {
-
-                    ExpressionStatementVisitor esv = new ExpressionStatementVisitor();
-
-                    whileStatement.accept(new ASTVisitor() {
-                        @Override
-                        public boolean visit(Block block) {
-
-                            Expression expression = whileStatement.getExpression();
-
-                            if (block.getParent() == whileStatement && !(expression instanceof MethodInvocation)) {
-                                injectInstrumentation(ast, rewrite, block, whileStatement, expression, esv);
-                            }
-                            return super.visit(block);
-                        }
-                    });
-                }
-                return super.visit(whileStatement);
-            }
-
-            @Override
-            public boolean visit(ForStatement forStatement) {
-
-                if (forStatement.getBody() != null) {
-
-                    ExpressionStatementVisitor esv = new ExpressionStatementVisitor();
-
-                    List<Expression> initializers = forStatement.initializers();
-                    List<Expression> updaters = forStatement.updaters();
-                    Expression expression = forStatement.getExpression();
-
-                    forStatement.accept(new ASTVisitor() {
-
-                        @Override
-                        public boolean visit(Block block) {
-
-                            if (block.getParent() == forStatement) {
-
-                                ListRewrite listRewrite = rewrite.getListRewrite(block, Block.STATEMENTS_PROPERTY);
-                                Statement addBeforeThisStatement = (Statement) block.statements().get(0);
-                                String statement_type = forStatement.getClass().toString().substring(forStatement.getClass().toString().lastIndexOf('.') + 1);
-                                int lineNumber = unit.getLineNumber(forStatement.getStartPosition());
-                                MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, statement_type, expression.toString());
-                                HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
-
+                                String operatorList = "";
                                 if (!(expression instanceof MethodInvocation)) {
 
-                                    expression.accept(esv);
-                                    arguments_list = getSimpleNames(esv);
+                                    String statement_type = expression.getClass().toString().substring(expression.getClass().toString().lastIndexOf('.') + 1);
+
+                                    if (!(expression instanceof Assignment && ((Assignment) expression).getRightHandSide() instanceof ClassInstanceCreation)) {
+
+                                        expression.accept(new ASTVisitor() {
+                                            @Override
+                                            public boolean visit(InfixExpression node) {
+                                                System.out.println(node.getOperator());
+                                                return super.visit(node);
+                                            }
+                                        });
+                                        if(expression instanceof Assignment){
+                                            String assignment_operator = ((Assignment) expression).getOperator().toString();
+                                            operatorList = addOperatorToOperatorList(operatorList, assignment_operator);
+                                            String right_side_operator = "";
+                                            if ( ((Assignment) expression).getRightHandSide() instanceof InfixExpression) {
+                                                right_side_operator = ((InfixExpression) ((Assignment) expression).getRightHandSide()).getOperator().toString();
+                                                operatorList = addOperatorToOperatorList(operatorList, right_side_operator);
+                                            }
+                                        } else if(expression instanceof PostfixExpression) {
+                                            String postfix_operator = ((PostfixExpression) expression).getOperator().toString();
+                                            operatorList = addOperatorToOperatorList(operatorList, postfix_operator);
+                                        }
+
+                                        int lineNumber = unit.getLineNumber(expression.getStartPosition());
+
+                                        MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name, statement_type, expression.toString(), operatorList);
+
+                                        expression.accept(esv);
+                                        HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
+
+                                        methodInvocation = addArguments(ast, methodInvocation, arguments_list);
+
+                                        ExpressionStatement statement1 = ast.newExpressionStatement(methodInvocation);
+                                        listRewrite.insertAfter(statement1, currentStatement, null);
+                                    }
+                                } else if (expression instanceof MethodInvocation && ((MethodInvocation) expression).arguments() != null) {
+
+                                    String statement_type = expression.getClass().toString().substring(expression.getClass().toString().lastIndexOf('.') + 1);
+
+                                    int lineNumber = unit.getLineNumber(expression.getStartPosition());
+
+                                    MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name, statement_type, expression.toString(), operatorList);
+
+                                    expression.accept(new ASTVisitor() {
+                                        @Override
+                                        public boolean visit(InfixExpression node) {
+                                            System.out.println(node.getOperator());
+                                            return super.visit(node);
+                                        }
+                                    });
+
+                                    List<Expression> arguments = ((MethodInvocation) expression).arguments();
+                                    for (Expression e : arguments) {
+                                        if (e instanceof ClassInstanceCreation || e instanceof MethodInvocation)
+                                            arguments.remove(e);
+                                    }
+
+                                    HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
+                                    arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, arguments);
+
+                                    methodInvocation = addArguments(ast, methodInvocation, arguments_list);
+
+                                    ExpressionStatement statement1 = ast.newExpressionStatement(methodInvocation);
+                                    listRewrite.insertAfter(statement1, currentStatement, null);
                                 }
-                                arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, initializers);
-                                arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, updaters);
-
-                                methodInvocation = addArguments(ast, methodInvocation, arguments_list);
-
-                                ExpressionStatement statement1 = ast.newExpressionStatement(methodInvocation);
-                                listRewrite.insertBefore(statement1, addBeforeThisStatement, null);
                             }
-                            return super.visit(block);
                         }
-                    });
-                }
-                return super.visit(forStatement);
-            }
+                        return super.visit(block);
+                    }
 
-            @Override
-            public boolean visit(IfStatement ifStatement) {
+                    @Override
+                    public boolean visit(WhileStatement whileStatement) {
 
-                if (ifStatement.getThenStatement() instanceof Block)
-                //&& ifStatement.getElseStatement() instanceof Block
-                {
-                    ExpressionStatementVisitor esv = new ExpressionStatementVisitor();
+                        if (whileStatement.getBody() != null) {
 
-                    ifStatement.accept(new ASTVisitor() {
-                        int end_counter = 0;
+                            ExpressionStatementVisitor esv = new ExpressionStatementVisitor();
 
-                        @Override
-                        public boolean visit(Block block) {
+                            whileStatement.accept(new ASTVisitor() {
+                                @Override
+                                public boolean visit(Block block) {
 
-                            end_counter++;
-                            Expression expression = ifStatement.getExpression();
+                                    Expression expression = whileStatement.getExpression();
 
-                            if ((end_counter < 2) && block.getParent() == ifStatement && !(expression instanceof MethodInvocation)) {
-                                injectInstrumentation(ast, rewrite, block, ifStatement, expression, esv);
-                            }
-                            return super.visit(block);
+
+                                    if (block.getParent() == whileStatement && !(expression instanceof MethodInvocation)) {
+                                        String operatorList = "";
+                                        if(expression instanceof InfixExpression) {
+                                            String while_statement_operator = ((InfixExpression) expression).getOperator().toString();
+                                            operatorList = addOperatorToOperatorList(operatorList, while_statement_operator);
+                                        }
+
+                                        expression.accept(new ASTVisitor() {
+                                            @Override
+                                            public boolean visit(InfixExpression node) {
+                                                System.out.println(expression + " "+ node.getOperator());
+                                                return super.visit(node);
+                                            }
+                                        });
+
+                                        injectInstrumentation(ast, rewrite, block, methodDeclaration_name, whileStatement, expression, operatorList, esv);
+                                    }
+                                    return super.visit(block);
+                                }
+                            });
                         }
-                    });
-                }
-                return super.visit(ifStatement);
+                        return super.visit(whileStatement);
+                    }
+
+                    @Override
+                    public boolean visit(ForStatement forStatement) {
+
+                        if (forStatement.getBody() != null) {
+
+                            ExpressionStatementVisitor esv = new ExpressionStatementVisitor();
+
+                            List<Expression> initializers = forStatement.initializers();
+                            List<Expression> updaters = forStatement.updaters();
+                            Expression expression = forStatement.getExpression();
+
+                            forStatement.accept(new ASTVisitor() {
+
+                                @Override
+                                public boolean visit(Block block) {
+
+                                    if (block.getParent() == forStatement) {
+
+                                        ListRewrite listRewrite = rewrite.getListRewrite(block, Block.STATEMENTS_PROPERTY);
+                                        Statement addBeforeThisStatement = (Statement) block.statements().get(0);
+                                        String statement_type = forStatement.getClass().toString().substring(forStatement.getClass().toString().lastIndexOf('.') + 1);
+                                        int lineNumber = unit.getLineNumber(forStatement.getStartPosition());
+
+                                        String operatorList = "";
+                                        if(expression instanceof InfixExpression) {
+                                            String while_statement_operator = ((InfixExpression) expression).getOperator().toString();
+                                            operatorList = addOperatorToOperatorList(operatorList, while_statement_operator);
+                                        }
+
+
+                                        expression.accept(new ASTVisitor() {
+                                            @Override
+                                            public boolean visit(InfixExpression node) {
+                                                System.out.println(node.getOperator());
+                                                return super.visit(node);
+                                            }
+                                        });
+
+                                        MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name, statement_type, expression.toString(), operatorList);
+                                        HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
+
+                                        if (!(expression instanceof MethodInvocation)) {
+
+                                            expression.accept(esv);
+                                            arguments_list = getSimpleNames(esv);
+                                        }
+                                        arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, initializers);
+                                        arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, updaters);
+
+                                        methodInvocation = addArguments(ast, methodInvocation, arguments_list);
+
+                                        ExpressionStatement statement1 = ast.newExpressionStatement(methodInvocation);
+                                        listRewrite.insertBefore(statement1, addBeforeThisStatement, null);
+                                    }
+                                    return super.visit(block);
+                                }
+                            });
+                        }
+                        return super.visit(forStatement);
+                    }
+
+                    @Override
+                    public boolean visit(IfStatement ifStatement) {
+
+                        if (ifStatement.getThenStatement() instanceof Block)
+                        //&& ifStatement.getElseStatement() instanceof Block
+                        {
+                            ExpressionStatementVisitor esv = new ExpressionStatementVisitor();
+
+                            ifStatement.accept(new ASTVisitor() {
+                                int end_counter = 0;
+
+                                @Override
+                                public boolean visit(Block block) {
+
+                                    end_counter++;
+                                    Expression expression = ifStatement.getExpression();
+
+
+                                    if ((end_counter < 2) && block.getParent() == ifStatement && !(expression instanceof MethodInvocation)) {
+
+                                        String operatorList = "";
+                                        if(expression instanceof InfixExpression) {
+                                            String while_statement_operator = ((InfixExpression) expression).getOperator().toString();
+                                            operatorList = addOperatorToOperatorList(operatorList, while_statement_operator);
+                                        }
+
+                                        expression.accept(new ASTVisitor() {
+                                            @Override
+                                            public boolean visit(InfixExpression node) {
+                                                System.out.println(node.getOperator());
+                                                return super.visit(node);
+                                            }
+                                        });
+
+                                        injectInstrumentation(ast, rewrite, block, methodDeclaration_name, ifStatement, expression, operatorList, esv);
+                                    }
+                                    return super.visit(block);
+                                }
+                            });
+                        }
+                        return super.visit(ifStatement);
+                    }
+
+                });
+                return super.visit(methodDeclaration);
             }
         });
         rewriteASTToFile(file_new, rewrite);

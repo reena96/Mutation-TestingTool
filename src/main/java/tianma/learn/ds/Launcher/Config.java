@@ -9,7 +9,7 @@ public class Config {
     }
 
     static class StringMatchSample{
-        static String source = "REENA MARY PUTHOTA";
-        static String pattern = "REENA";
+        static String[] source = {"REENA MARY PUTHOTA", "SAI SHARAN NAGULAPALLI", "TATHAGATA GANGULY"};
+        static String[] pattern ={"REENA", "SHARAN", "GANGULY"};
     }
 }
