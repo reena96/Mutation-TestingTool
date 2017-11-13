@@ -56,7 +56,7 @@ System.out.println("------------------");
             tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher currentClass = new tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher();
             Method currentMethod =  currentClass.getClass().getDeclaredMethod("indexOf", String.class, String.class);
             TracePrint tracePrint = new TracePrint(MUTATED_FILE_PATH,sequence,pattern,i);
-            currentMethod.invoke(currentClass,sequence,pattern);
+            //currentMethod.invoke(currentClass,sequence,pattern);
             tracePrint.printToFile(file, currentMethod, currentClass, sequence, pattern);
             compareTraces(file);
             if(cc.isFrozen()){

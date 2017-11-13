@@ -49,25 +49,23 @@ public class StringMatchSample_1 {
 				Template.instrum(
 						"46",
 						"tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf",
-						"WhileStatement", "i < sLen && j < pLen", "&&@<@<",
-						"pLen", pLen, "sLen", sLen, "i", i, "j", j);
+						"WhileStatement", "i < sLen && j < pLen", "&&@<@<");
 				if (src[i] == ptn[j]) {
 					Template.instrum(
 							"47",
 							"tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf",
-							"IfStatement", "src[i] == ptn[j]", "==", "src",
-							src, "i", i, "j", j, "ptn", ptn);
+							"IfStatement", "src[i] == ptn[j]", "==");
 					// 如果当前字符匹配成功,则将两者各自增1,继续比较后面的字符
 					i++;
 					Template.instrum(
 							"49",
 							"tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf",
-							"PostfixExpression", "i++", "++", "i", i);
+							"PostfixExpression", "i++", "++");
 					j++;
 					Template.instrum(
 							"50",
 							"tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf",
-							"PostfixExpression", "j++", "++", "j", j);
+							"PostfixExpression", "j++", "++");
 				} else {
 					// 如果当前字符匹配不成功,则i回溯到此次匹配最开始的位置+1处,也就是i = i - j + 1
 					// (因为i,j是同步增长的), j = 0;
@@ -75,13 +73,12 @@ public class StringMatchSample_1 {
 					Template.instrum(
 							"54",
 							"tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf",
-							"Assignment", "i=i - j + 1", "+@-@+@-=", "i", i,
-							"j", j);
+							"Assignment", "i=i - j + 1", "+@-@+@-=");
 					j = 0;
 					Template.instrum(
 							"55",
 							"tianma.learn.ds.string.main.StringMatchSample.ViolentStringMatcher.indexOf",
-							"Assignment", "j=0", "@=", "j", j);
+							"Assignment", "j=0", "@=");
 				}
 			}
 			// 匹配成功,则返回模式字符串在原字符串中首次出现的位置;否则返回-1
@@ -121,42 +118,39 @@ public class StringMatchSample_1 {
 			Template.instrum(
 					"91",
 					"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
-					"Assignment", "next[0]=-1", "@=", "next", next);
+					"Assignment", "next[0]=-1", "@=");
 			while (j < pLen - 1) {
 				Template.instrum(
 						"92",
 						"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
-						"WhileStatement", "j < pLen - 1", "<@-", "pLen", pLen,
-						"j", j);
+						"WhileStatement", "j < pLen - 1", "<@-");
 				if (k == -1 || p[j] == p[k]) {
 					Template.instrum(
 							"93",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
 							"IfStatement", "k == -1 || p[j] == p[k]",
-							"||@==@==", "p", p, "j", j, "k", k);
+							"||@==@==");
 					k++;
 					Template.instrum(
 							"94",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
-							"PostfixExpression", "k++", "++", "k", k);
+							"PostfixExpression", "k++", "++");
 					j++;
 					Template.instrum(
 							"95",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
-							"PostfixExpression", "j++", "++", "j", j);
+							"PostfixExpression", "j++", "++");
 					next[j] = k;
 					Template.instrum(
 							"96",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
-							"Assignment", "next[j]=k", "@=", "next", next, "j",
-							j, "k", k);
+							"Assignment", "next[j]=k", "@=");
 				} else {
 					k = next[k];
 					Template.instrum(
 							"98",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.getNext",
-							"Assignment", "k=next[k]", "@=", "next", next, "k",
-							k);
+							"Assignment", "k=next[k]", "@=");
 				}
 			}
 			return next;
@@ -174,33 +168,31 @@ public class StringMatchSample_1 {
 				Template.instrum(
 						"112",
 						"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.indexOf",
-						"WhileStatement", "i < sLen && j < pLen", "&&@<@<",
-						"pLen", pLen, "sLen", sLen, "i", i, "j", j);
+						"WhileStatement", "i < sLen && j < pLen", "&&@<@<");
 				// 如果j = -1,或者当前字符匹配成功(src[i] = ptn[j]),都让i++,j++
 				if (j == -1 || src[i] == ptn[j]) {
 					Template.instrum(
 							"114",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.indexOf",
 							"IfStatement", "j == -1 || src[i] == ptn[j]",
-							"||@==@==", "src", src, "i", i, "j", j, "ptn", ptn);
+							"||@==@==");
 					i++;
 					Template.instrum(
 							"115",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.indexOf",
-							"PostfixExpression", "i++", "++", "i", i);
+							"PostfixExpression", "i++", "++");
 					j++;
 					Template.instrum(
 							"116",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.indexOf",
-							"PostfixExpression", "j++", "++", "j", j);
+							"PostfixExpression", "j++", "++");
 				} else {
 					// 如果j!=-1且当前字符匹配失败,则令i不变,j=next[j],即让pattern模式串右移j-next[j]个单位
 					j = next[j];
 					Template.instrum(
 							"119",
 							"tianma.learn.ds.string.main.StringMatchSample.KMPStringMatcher.indexOf",
-							"Assignment", "j=next[j]", "@=", "next", next, "j",
-							j);
+							"Assignment", "j=next[j]", "@=");
 				}
 			}
 			if (j == pLen)
@@ -229,44 +221,42 @@ public class StringMatchSample_1 {
 			int k = -1;
 			int j = 0;
 			next[0] = -1; // next数组中next[0]为-1
-			Template.instrum("147",
+			Template.instrum(
+					"147",
 					"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-					"Assignment", "next[0]=-1", "@=", "next", next);
+					"Assignment", "next[0]=-1", "@=");
 			while (j < pLen - 1) {
 				Template.instrum(
 						"148",
 						"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-						"WhileStatement", "j < pLen - 1", "<@-", "pLen", pLen,
-						"j", j);
+						"WhileStatement", "j < pLen - 1", "<@-");
 				if (k == -1 || p[j] == p[k]) {
 					Template.instrum(
 							"149",
 							"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
 							"IfStatement", "k == -1 || p[j] == p[k]",
-							"||@==@==", "p", p, "j", j, "k", k);
+							"||@==@==");
 					k++;
 					Template.instrum(
 							"150",
 							"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-							"PostfixExpression", "k++", "++", "k", k);
+							"PostfixExpression", "k++", "++");
 					j++;
 					Template.instrum(
 							"151",
 							"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-							"PostfixExpression", "j++", "++", "j", j);
+							"PostfixExpression", "j++", "++");
 					// 修改next数组求法
 					if (p[j] != p[k]) {
 						Template.instrum(
 								"153",
 								"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-								"IfStatement", "p[j] != p[k]", "!=", "p", p,
-								"j", j, "k", k);
+								"IfStatement", "p[j] != p[k]", "!=");
 						next[j] = k;// KMPStringMatcher中只有这一行
 						Template.instrum(
 								"154",
 								"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-								"Assignment", "next[j]=k", "@=", "next", next,
-								"j", j, "k", k);
+								"Assignment", "next[j]=k", "@=");
 					} else {
 						// 不能出现p[j] = p[next[j]],所以如果出现这种情况则继续递归,如 k = next[k],
 						// k = next[[next[k]]
@@ -274,16 +264,14 @@ public class StringMatchSample_1 {
 						Template.instrum(
 								"158",
 								"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-								"Assignment", "next[j]=next[k]", "@=", "next",
-								next, "j", j, "k", k);
+								"Assignment", "next[j]=next[k]", "@=");
 					}
 				} else {
 					k = next[k];
 					Template.instrum(
 							"161",
 							"tianma.learn.ds.string.main.StringMatchSample.OptimizedKMPStringMatcher.getNext",
-							"Assignment", "k=next[k]", "@=", "next", next, "k",
-							k);
+							"Assignment", "k=next[k]", "@=");
 				}
 			}
 			return next;

@@ -13,11 +13,13 @@ public class Launcher {
 
         File file = new File("./src/main/java/tianma/learn/ds/string/main/StringMatchSample_1.java");
         Launcher launcher = new Launcher();
-        launcher.mutate(file);
+
+
+        launcher.astMutate(file);
 
     }
 
-    public void mutate(File file) throws IOException, BadLocationException {
+    public void astMutate(File file) throws IOException, BadLocationException {
 
         ASTTreeParse astTreeParse = new ASTTreeParse();
         CompilationUnit unit = astTreeParse.getCompilationUnit(file);
