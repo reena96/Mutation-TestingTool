@@ -1,4 +1,4 @@
-package tianma.learn.ds.Launcher;
+/*package tianma.learn.ds.Launcher;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -77,7 +77,7 @@ public class TestInvoke {
         Method methodCall =  currentClass.getClass().getDeclaredMethod("sort",int[].class);
         // int[] a = {9, 3, 2, 6, 8, 7, 1, 12, 4, 11};
         methodCall.invoke(currentClass,Config.BubbleSorter.input_array);
-         */
+
         for (int i=0; i<Config.StringMatchSample.source.length; i++) {
             TraceGeneratorThread t = new TraceGeneratorThread(Config.StringMatchSample.source[i], Config.StringMatchSample.pattern[i], i);
             t.start();
@@ -85,3 +85,4 @@ public class TestInvoke {
         }
     }
 }
+*/

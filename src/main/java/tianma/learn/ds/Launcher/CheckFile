@@ -1,0 +1,20 @@
+46 , WhileStatement , i < sLen && j < pLen
+47 , IfStatement , src[i] == ptn[j]
+49 , PostfixExpression , i++
+50 , PostfixExpression , j++
+46 , WhileStatement , i < sLen && j < pLen
+47 , IfStatement , src[i] == ptn[j]
+49 , PostfixExpression , i++
+50 , PostfixExpression , j++
+46 , WhileStatement , i < sLen && j < pLen
+47 , IfStatement , src[i] == ptn[j]
+49 , PostfixExpression , i++
+50 , PostfixExpression , j++
+46 , WhileStatement , i < sLen && j < pLen
+47 , IfStatement , src[i] == ptn[j]
+49 , PostfixExpression , i++
+50 , PostfixExpression , j++
+46 , WhileStatement , i < sLen && j < pLen
+47 , IfStatement , src[i] == ptn[j]
+49 , PostfixExpression , i++
+50 , PostfixExpression , j++

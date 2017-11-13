@@ -296,10 +296,11 @@ public class TraverseManager3 {
 
         MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name, statement_type, expression.toString(), operator_list);
 
-        expression.accept(esv);
+        // commenting to make it work for Mutation using javassist
+        /*expression.accept(esv);
         HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
 
-        methodInvocation = addArguments(ast, methodInvocation, arguments_list);
+        methodInvocation = addArguments(ast, methodInvocation, arguments_list);*/
 
         ExpressionStatement statement1 = ast.newExpressionStatement(methodInvocation);
         listRewrite.insertBefore(statement1, addBeforeThisStatement, null);
@@ -320,8 +321,6 @@ public class TraverseManager3 {
     }
 
     public void Instrument2(CompilationUnit unit, File file_new) throws IOException, BadLocationException {
-
-        //System.out.println("This is TraverseManager3 section : ");
 
         this.unit = unit;
         AST ast = unit.getAST();
@@ -383,10 +382,10 @@ public class TraverseManager3 {
 
                                         MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name, statement_type, expression.toString(), infixOperatorList);
 
-                                        expression.accept(esv);
+                                        /*expression.accept(esv);
                                         HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
 
-                                        methodInvocation = addArguments(ast, methodInvocation, arguments_list);
+                                        methodInvocation = addArguments(ast, methodInvocation, arguments_list);*/
 
                                         ExpressionStatement statement1 = ast.newExpressionStatement(methodInvocation);
                                         listRewrite.insertAfter(statement1, currentStatement, null);
@@ -401,7 +400,7 @@ public class TraverseManager3 {
 
                                     MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name, statement_type, expression.toString(), infixOperatorList);
 
-                                    List<Expression> arguments = ((MethodInvocation) expression).arguments();
+                                    /*List<Expression> arguments = ((MethodInvocation) expression).arguments();
                                     for (Expression e : arguments) {
                                         if (e instanceof ClassInstanceCreation || e instanceof MethodInvocation)
                                             arguments.remove(e);
@@ -410,7 +409,7 @@ public class TraverseManager3 {
                                     HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
                                     arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, arguments);
 
-                                    methodInvocation = addArguments(ast, methodInvocation, arguments_list);
+                                    methodInvocation = addArguments(ast, methodInvocation, arguments_list); */
 
                                     ExpressionStatement statement1 = ast.newExpressionStatement(methodInvocation);
                                     listRewrite.insertAfter(statement1, currentStatement, null);
@@ -476,7 +475,7 @@ public class TraverseManager3 {
                                         String infixOperatorList = getOperatorList(expression, iopv, popv);
 
                                         MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name, statement_type, expression.toString(), infixOperatorList);
-                                        HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
+                                        /*HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
 
                                         if (!(expression instanceof MethodInvocation)) {
 
@@ -486,7 +485,7 @@ public class TraverseManager3 {
                                         arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, initializers);
                                         arguments_list = addInitializersUpdatersToArguments(ast, esv, arguments_list, updaters);
 
-                                        methodInvocation = addArguments(ast, methodInvocation, arguments_list);
+                                        methodInvocation = addArguments(ast, methodInvocation, arguments_list);*/
 
                                         ExpressionStatement statement1 = ast.newExpressionStatement(methodInvocation);
                                         listRewrite.insertBefore(statement1, addBeforeThisStatement, null);
