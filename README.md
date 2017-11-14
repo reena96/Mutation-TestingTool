@@ -1,11 +1,11 @@
 
 ## Tasks being performed ##
-1)Save Execution Trace:
-2)Creation of the Mutation Matrix:
-3)Deciding which mutation to apply:
-4)Apply mutation using AST and return the modified code string:
-5)Replacing method body using Javassist:
-6)Comparing Traces
+#### 1)Save Execution Trace:
+#### 2)Creation of the Mutation Matrix:
+#### 3)Deciding which mutation to apply:
+#### 4)Apply mutation using AST and return the modified code string:
+#### 5)Replacing method body using Javassist:
+#### 6)Comparing Traces
 
 ## Classes to be run:##
 #### -Run tianma.learn.ds.Launcher.UsingSingleThreadExecutor.java
