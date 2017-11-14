@@ -168,11 +168,11 @@ public class StringMatchSample {
 
 	public static void main(String[] args) {
 		StringMatcher matcher = new ViolentStringMatcher();
-		System.out.println(matcher.indexOf("helloworld", "ow"));
+		System.out.println(matcher.indexOf("Reena Mary Puthota", "Reena"));
 		matcher = new KMPStringMatcher();
-		System.out.println(matcher.indexOf("helloworld", "ow"));
+		System.out.println(matcher.indexOf("Sai Sharan Nagulapalli", "Sharan"));
 		matcher = new OptimizedKMPStringMatcher();
-		System.out.println(matcher.indexOf("helloworld", "ow"));
+		System.out.println(matcher.indexOf("Tathagata Ganguly", "Ganguly"));
 	}
 
 }

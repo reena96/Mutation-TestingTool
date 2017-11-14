@@ -1,0 +1,20 @@
+ Line Number: 46 Instrumented Statement Type : WhileStatement   , i < sLen && j < pLen , pLen , 5 , sLen , 18 , i , 0 , j , 0
+Line Number: 47 Instrumented Statement Type : IfStatement   , src[i] == ptn[j] , src , [C@6b884d57 , i , 0 , j , 0 , ptn , [C@38af3868
+Line Number: 49 Instrumented Statement Type : PostfixExpression   , i++ , i , 1
+Line Number: 50 Instrumented Statement Type : PostfixExpression   , j++ , j , 1
+Line Number: 46 Instrumented Statement Type : WhileStatement   , i < sLen && j < pLen , pLen , 5 , sLen , 18 , i , 1 , j , 1
+Line Number: 47 Instrumented Statement Type : IfStatement   , src[i] == ptn[j] , src , [C@6b884d57 , i , 1 , j , 1 , ptn , [C@38af3868
+Line Number: 49 Instrumented Statement Type : PostfixExpression   , i++ , i , 2
+Line Number: 50 Instrumented Statement Type : PostfixExpression   , j++ , j , 2
+Line Number: 46 Instrumented Statement Type : WhileStatement   , i < sLen && j < pLen , pLen , 5 , sLen , 18 , i , 2 , j , 2
+Line Number: 47 Instrumented Statement Type : IfStatement   , src[i] == ptn[j] , src , [C@6b884d57 , i , 2 , j , 2 , ptn , [C@38af3868
+Line Number: 49 Instrumented Statement Type : PostfixExpression   , i++ , i , 3
+Line Number: 50 Instrumented Statement Type : PostfixExpression   , j++ , j , 3
+Line Number: 46 Instrumented Statement Type : WhileStatement   , i < sLen && j < pLen , pLen , 5 , sLen , 18 , i , 3 , j , 3
+Line Number: 47 Instrumented Statement Type : IfStatement   , src[i] == ptn[j] , src , [C@6b884d57 , i , 3 , j , 3 , ptn , [C@38af3868
+Line Number: 49 Instrumented Statement Type : PostfixExpression   , i++ , i , 4
+Line Number: 50 Instrumented Statement Type : PostfixExpression   , j++ , j , 4
+Line Number: 46 Instrumented Statement Type : WhileStatement   , i < sLen && j < pLen , pLen , 5 , sLen , 18 , i , 4 , j , 4
+Line Number: 47 Instrumented Statement Type : IfStatement   , src[i] == ptn[j] , src , [C@6b884d57 , i , 4 , j , 4 , ptn , [C@38af3868
+Line Number: 49 Instrumented Statement Type : PostfixExpression   , i++ , i , 5
+Line Number: 50 Instrumented Statement Type : PostfixExpression   , j++ , j , 5

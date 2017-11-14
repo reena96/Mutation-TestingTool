@@ -26,12 +26,14 @@ public class ASTTreeParse {
      * @throws IOException
      */
     public static void main(String[] args) throws Exception {
+        File file = new File("./src/main/java/tianma/learn/ds/string/main/StringMatchSample.java");
         ASTTreeParse test = new ASTTreeParse();
-        test.processJavaFile(new File("./src/main/java/tianma/learn/ds/string/main/StringMatchSample.java"));
+        CompilationUnit unit = test.getCompilationUnit(file);
+        test.processJavaFile(file, unit);
     }
 
 
-    public void processJavaFile(File file) throws IOException, MalformedTreeException, BadLocationException {
+    public CompilationUnit getCompilationUnit(File file) throws IOException , MalformedTreeException, BadLocationException {
 
         ASTParser parser = ASTParser.newParser(AST.JLS4);
         parser.setResolveBindings(true);
@@ -41,7 +43,7 @@ public class ASTTreeParse {
         parser.setCompilerOptions(options);
 
         //these four lines are here for resolving the binding
-        String unitName = "DataStruc/src/main/java/tianma/learn/ds/sort/SorterMain.java";
+        String unitName = file.toString();
         parser.setUnitName(unitName);
         String[] sources = {"/Users/sharandec7/Desktop/CS474_HW2/DataStruc/src/main/java/"};
         String[] classpath = {""};
@@ -63,6 +65,9 @@ public class ASTTreeParse {
         }
 
         unit.recordModifications();
+        return  unit;
+    }
+    public void processJavaFile(File file, CompilationUnit unit) throws IOException, MalformedTreeException, BadLocationException {
 
         TraverseManager3 manager3 = new TraverseManager3();
         manager3.Instrument2(unit, file);
