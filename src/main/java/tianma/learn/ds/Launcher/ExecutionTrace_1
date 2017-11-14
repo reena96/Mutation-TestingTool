@@ -1,20 +1,21 @@
-46 , WhileStatement , i < sLen && j < pLen , pLen , 5 , sLen , 18 , i , 0 , j , 0
-47 , IfStatement , src[i] == ptn[j] , src , [C@53028f12 , i , 0 , j , 0 , ptn , [C@3e33375
-49 , PostfixExpression , i++ , i , 1
-50 , PostfixExpression , j++ , j , 1
-46 , WhileStatement , i < sLen && j < pLen , pLen , 5 , sLen , 18 , i , 1 , j , 1
-47 , IfStatement , src[i] == ptn[j] , src , [C@53028f12 , i , 1 , j , 1 , ptn , [C@3e33375
-49 , PostfixExpression , i++ , i , 2
-50 , PostfixExpression , j++ , j , 2
-46 , WhileStatement , i < sLen && j < pLen , pLen , 5 , sLen , 18 , i , 2 , j , 2
-47 , IfStatement , src[i] == ptn[j] , src , [C@53028f12 , i , 2 , j , 2 , ptn , [C@3e33375
-49 , PostfixExpression , i++ , i , 3
-50 , PostfixExpression , j++ , j , 3
-46 , WhileStatement , i < sLen && j < pLen , pLen , 5 , sLen , 18 , i , 3 , j , 3
-47 , IfStatement , src[i] == ptn[j] , src , [C@53028f12 , i , 3 , j , 3 , ptn , [C@3e33375
-49 , PostfixExpression , i++ , i , 4
-50 , PostfixExpression , j++ , j , 4
-46 , WhileStatement , i < sLen && j < pLen , pLen , 5 , sLen , 18 , i , 4 , j , 4
-47 , IfStatement , src[i] == ptn[j] , src , [C@53028f12 , i , 4 , j , 4 , ptn , [C@3e33375
-49 , PostfixExpression , i++ , i , 5
-50 , PostfixExpression , j++ , j , 5
+46,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,WhileStatement,i < sLen && j < pLen,&&@<@<
+47,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,IfStatement,src[i] == ptn[j],==
+49,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,PostfixExpression,i++,++
+50,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,PostfixExpression,j++,++
+46,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,WhileStatement,i < sLen && j < pLen,&&@<@<
+47,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,IfStatement,src[i] == ptn[j],==
+49,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,PostfixExpression,i++,++
+50,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,PostfixExpression,j++,++
+46,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,WhileStatement,i < sLen && j < pLen,&&@<@<
+47,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,IfStatement,src[i] == ptn[j],==
+49,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,PostfixExpression,i++,++
+50,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,PostfixExpression,j++,++
+46,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,WhileStatement,i < sLen && j < pLen,&&@<@<
+47,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,IfStatement,src[i] == ptn[j],==
+49,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,PostfixExpression,i++,++
+50,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,PostfixExpression,j++,++
+46,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,WhileStatement,i < sLen && j < pLen,&&@<@<
+47,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,IfStatement,src[i] == ptn[j],==
+49,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,PostfixExpression,i++,++
+50,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,PostfixExpression,j++,++
+59,tianma.learn.ds.string.main.StringMatchSample_1.ViolentStringMatcher.indexOf,IfStatement,j == pLen,==
