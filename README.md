@@ -24,8 +24,11 @@ Each file corresponds to the execution trace corresponding to the input specifie
 
 ### 2) Creation of the Mutation Matrix: ###
 Now, start the Launcher by running Launcher.java
-Using the ExecutionTraces as input, the Mutator.java iterates through the lines and creates the hash map with  KEY- Operator list  VALUE - the concatenated string containing Line number, method name, statement type, expression and the list of operators that the expression contains 
-3) Deciding which mutation to apply:
+Using the ExecutionTraces as input, the Mutator.java iterates through the lines and creates the hash map with 
+ KEY- Operator list 
+ VALUE - the concatenated string containing Line number, method name, statement type, expression and the list of operators that the expression contains 
+
+### 3) Deciding which mutation to apply: ###
 For each of the operator in the KEY’s operator list, we create the final multi map that contains 
 KEY- Numerical Value starting from zero and auto incrementing for each entry in the multimap.
 VALUE- list of string arrays containing all the mutations possible for each operator corresponding to the expressions and the statement type.
