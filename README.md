@@ -40,7 +40,7 @@ We also obtain the Abstract Syntax Tree of the Instrumented file and we go throu
 The method iterates through the hash map for each entry and checks for each statement type and further, using statement.getExpression(), we obtain the expression and replace the existing operator by the mutation that was decided in the Mutation Matrix.
 #### For example, a “==“ would be replaced by a “!=“
 The asMutate() method returns the modified Method’s Code Strings which will later be used to create a new CtMethod Object. This Modified Method Code string is also printed to the Console.
-#### For example, a “==“ would be replaced by a “!=“
+
 
 ### 5) Replacing method body using Javassist:###
 The control is again returned to the main of the Launcher again and from here, the ReplaceMethodBody.java’s, createMutation1() is called which uses JAVASSIST, which will replace the old method of the the program with the newly modified Method’s Code Strings by creating a new CtMethod object using CtNewMethod.make().
