@@ -51,7 +51,7 @@ The updated class’s byte code is obtained and the method is invoked by passing
 This will build MutationTrace files containing the instrumented outputs of each of the Mutated Programs.
 
 ### 6) Comparing Traces ###
-Once the Mutation Trace files have been created, the compareTraces() method compares each of the MethodTraces against the ExecutionTrace created for the corresponding Input from the Config File. 
+Once the Mutation Trace files have been created, the compareTraces() method compares each of the MutationTraces against the ExecutionTrace created for the corresponding Input from the Config File. 
 If the Mutation results in an exception, the resulting exception is printed out to the MutationTrace file.
 
 
