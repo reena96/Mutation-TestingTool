@@ -25,6 +25,8 @@ public class TracePrint implements Runnable{
         this.pattern = pattern;
         this.i = i;
     }
+    public TracePrint() {
+    }
 
     @Override
     public void run() {
@@ -42,20 +44,46 @@ public class TracePrint implements Runnable{
             printToFile(file, methodCall, currentClass, sequence, pattern);
             //}
 
-        } catch (IllegalAccessException e) {
+        /*} catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace();*/
+        } catch (Exception e) {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            PrintStream ps = new PrintStream(baos);
+            // IMPORTANT: Save the old System.out!
+
+            PrintStream old = System.out;
+            // Tell Java to use your special stream
+            System.setOut(ps);
+            // Print some output: goes to your special stream
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            System.out.println(errors.toString());
+            // Put things back
+            System.out.flush();
+            System.setOut(old);
+            // Show what happened
+            System.out.println(baos.toString());
+            String b = baos.toString();
+            File file2 = new File("./src/main/java/tianma/learn/ds/Launcher/ExecutionTrace_error");
+            try {
+                FileUtils.writeStringToFile(file2, b);
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+            //addToList();
         }
     }
 
-    public void printToFile(File file, Method methodCall, StringMatchSample_1.ViolentStringMatcher currentClass, String sequence, String pattern) throws IOException, InvocationTargetException, IllegalAccessException {
+    public void printToFile(File file, Method methodCall, StringMatchSample_1.ViolentStringMatcher currentClass, String sequence, String pattern) throws Exception, IOException, InvocationTargetException, IllegalAccessException {
 
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        PrintStream ps = new PrintStream(baos);
-        // IMPORTANT: Save the old System.out!
+        try {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            PrintStream ps = new PrintStream(baos);
+            // IMPORTANT: Save the old System.out!
 
             PrintStream old = System.out;
             // Tell Java to use your special stream
@@ -71,6 +99,29 @@ public class TracePrint implements Runnable{
 
             FileUtils.writeStringToFile(file, b);
             //addToList();
+        }
+        catch (Exception e)
+        {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            PrintStream ps = new PrintStream(baos);
+            // IMPORTANT: Save the old System.out!
+
+            PrintStream old = System.out;
+            // Tell Java to use your special stream
+            System.setOut(ps);
+            // Print some output: goes to your special stream
+            StringWriter errors = new StringWriter();
+            e.printStackTrace(new PrintWriter(errors));
+            System.out.println(errors.toString());
+            // Put things back
+            System.out.flush();
+            System.setOut(old);
+            // Show what happened
+            System.out.println(baos.toString());
+            String b = baos.toString();
+            FileUtils.writeStringToFile(file, b);
+            //addToList();
+        }
     }
 
     private void addToList() throws IOException {
@@ -99,9 +150,5 @@ public class TracePrint implements Runnable{
         }
 
         System.out.println("Size of Map------------------------------------------------"+map.size());
-
-
-
-
     }
 }

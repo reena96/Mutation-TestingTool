@@ -200,7 +200,7 @@ public class TraverseManager3 {
 
         MethodInvocation methodInvocation = ast.newMethodInvocation();
 
-        SimpleName qName = ast.newSimpleName("Template");
+        SimpleName qName = ast.newSimpleName("template");
         methodInvocation.setExpression(qName);
         methodInvocation.setName(ast.newSimpleName("instrum"));
 
@@ -328,7 +328,7 @@ public class TraverseManager3 {
 
         //adding Template class import statement
         ImportDeclaration id = ast.newImportDeclaration();
-        String classToImport = "tianma.learn.ds.Template";
+        String classToImport = "tianma.learn.ds.Launcher.Template";
         id.setName(ast.newName(classToImport.split("\\.")));
         ListRewrite unitRewrite = rewrite.getListRewrite(unit, CompilationUnit.IMPORTS_PROPERTY);
         unitRewrite.insertLast(id,null);
@@ -343,6 +343,12 @@ public class TraverseManager3 {
             @Override
             public boolean visit(MethodDeclaration methodDeclaration) {
 
+                /*String[] ss = methodDeclaration.resolveBinding().getDeclaringClass().getQualifiedName().split(".");
+                String methodDeclaration_name = "";
+                for (int i=0; i<ss.length-2; i++) {
+                    methodDeclaration_name += ss[i];
+                }
+                methodDeclaration_name += "_1"+ss[ss.length-1]+"." + methodDeclaration.getName();*/
                 String methodDeclaration_name = methodDeclaration.resolveBinding().getDeclaringClass().getQualifiedName()+"." + methodDeclaration.getName();
                 //System.out.println(methodDeclaration_name);
                 
@@ -350,6 +356,13 @@ public class TraverseManager3 {
 
                     @Override
                     public boolean visit(Block block) {
+
+                        String[] ss = methodDeclaration_name.split("\\.");
+                        String methodDeclaration_name_1 = "";
+                        for (int i=0; i<ss.length-3; i++) {
+                            methodDeclaration_name_1 += ss[i]+".";
+                        }
+                        methodDeclaration_name_1 += ss[ss.length-3]+"_1."+ss[ss.length-2]+"."+ss[ss.length-1];
 
                         ListRewrite listRewrite = rewrite.getListRewrite(block, Block.STATEMENTS_PROPERTY);
 
@@ -380,7 +393,7 @@ public class TraverseManager3 {
                                         if (expression instanceof  Assignment)
                                             infixOperatorList = getOperatorList(expression, iopv, popv)+((Assignment) expression).getOperator().toString();
 
-                                        MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name, statement_type, expression.toString(), infixOperatorList);
+                                        MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name_1, statement_type, expression.toString(), infixOperatorList);
 
                                         /*expression.accept(esv);
                                         HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
@@ -398,7 +411,7 @@ public class TraverseManager3 {
 
                                     infixOperatorList = getOperatorList(expression, iopv, popv);
 
-                                    MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name, statement_type, expression.toString(), infixOperatorList);
+                                    MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name_1, statement_type, expression.toString(), infixOperatorList);
 
                                     /*List<Expression> arguments = ((MethodInvocation) expression).arguments();
                                     for (Expression e : arguments) {
@@ -432,13 +445,21 @@ public class TraverseManager3 {
                                 @Override
                                 public boolean visit(Block block) {
 
+                                    String[] ss = methodDeclaration_name.split("\\.");
+                                    String methodDeclaration_name_1 = "";
+                                    for (int i=0; i<ss.length-3; i++) {
+                                        methodDeclaration_name_1 += ss[i]+".";
+                                    }
+                                    methodDeclaration_name_1 += ss[ss.length-3]+"_1."+ss[ss.length-2]+"."+ss[ss.length-1];
+
+
                                     Expression expression = whileStatement.getExpression();
 
                                     if (block.getParent() == whileStatement && !(expression instanceof MethodInvocation)) {
 
                                         String infixOperatorList = getOperatorList(expression, iopv, popv);
 
-                                        injectInstrumentation(ast, rewrite, block, methodDeclaration_name, whileStatement, expression, infixOperatorList, esv);
+                                        injectInstrumentation(ast, rewrite, block, methodDeclaration_name_1, whileStatement, expression, infixOperatorList, esv);
                                     }
                                     return super.visit(block);
                                 }
@@ -465,6 +486,13 @@ public class TraverseManager3 {
                                 @Override
                                 public boolean visit(Block block) {
 
+                                    String[] ss = methodDeclaration_name.split("\\.");
+                                    String methodDeclaration_name_1 = "";
+                                    for (int i=0; i<ss.length-3; i++) {
+                                        methodDeclaration_name_1 += ss[i]+".";
+                                    }
+                                    methodDeclaration_name_1 += ss[ss.length-3]+"_1."+ss[ss.length-2]+"."+ss[ss.length-1];
+
                                     if (block.getParent() == forStatement) {
 
                                         ListRewrite listRewrite = rewrite.getListRewrite(block, Block.STATEMENTS_PROPERTY);
@@ -474,7 +502,7 @@ public class TraverseManager3 {
 
                                         String infixOperatorList = getOperatorList(expression, iopv, popv);
 
-                                        MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name, statement_type, expression.toString(), infixOperatorList);
+                                        MethodInvocation methodInvocation = createInstrumMethodNode(ast, lineNumber, methodDeclaration_name_1, statement_type, expression.toString(), infixOperatorList);
                                         /*HashMap<String, SimpleName> arguments_list = getSimpleNames(esv);
 
                                         if (!(expression instanceof MethodInvocation)) {
@@ -513,6 +541,13 @@ public class TraverseManager3 {
                                 @Override
                                 public boolean visit(Block block) {
 
+                                    String[] ss = methodDeclaration_name.split("\\.");
+                                    String methodDeclaration_name_1 = "";
+                                    for (int i=0; i<ss.length-3; i++) {
+                                        methodDeclaration_name_1 += ss[i]+".";
+                                    }
+                                    methodDeclaration_name_1 += ss[ss.length-3]+"_1."+ss[ss.length-2]+"."+ss[ss.length-1];
+
                                     end_counter++;
                                     Expression expression = ifStatement.getExpression();
 
@@ -520,7 +555,7 @@ public class TraverseManager3 {
 
                                         String infixOperatorList = getOperatorList(expression, iopv, popv);
 
-                                        injectInstrumentation(ast, rewrite, block, methodDeclaration_name, ifStatement, expression, infixOperatorList, esv);
+                                        injectInstrumentation(ast, rewrite, block, methodDeclaration_name_1, ifStatement, expression, infixOperatorList, esv);
                                     }
                                     return super.visit(block);
                                 }
