@@ -52,8 +52,10 @@ This will build MutationTrace files containing the instrumented outputs of each 
 
 ### 6) Comparing Traces ###
 Once the Mutation Trace files have been created, the compareTraces() method compares each of the MutationTraces against the ExecutionTrace created for the corresponding test cases from the Config File. 
-#### If the traces are the same,then it means that mutant has survived and the test cases haven't killed the mutant.
-#### If the traces are different, then it means that the mutant has been killed by the test cases.
+#### If the traces are the same,then it means that mutant has survived and the test cases haven't killed the mutant. Result is printed to Console.
+##### Bad news: SAME TRACES- Mutant has survived!
+#### If the traces are different, then it means that the mutant has been killed by the test cases. Result is printed to Console.
+##### Good news: DIFFERENT TRACES -Mutant is killed!
 #### If the Mutation results in an exception, the resulting exception is printed out to the MutationTrace file.
 
 
