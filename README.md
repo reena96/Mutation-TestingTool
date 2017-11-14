@@ -14,12 +14,12 @@
 ### 1) Save Execution Trace: ###
 In our project, we collect the instrumented byte code from Homework 2 
 We use reflection on the instrumented file and we obtain the byte code of the instrumented file 
-We run our instrumented byte code against the inputs specified in the Config file.
+We run our instrumented byte code against the test cases specified in the Config file.
 For doing this, Run UsingSingleThreadExecutor.java
 Run this file in order to obtain the ExecutionTrace of the original file.
-In the UsingSingleThreadExecutor, we iterate through the inputs in the Config file corresponding to the input program file and we execute the tasks specified in the TracePrint using the ExecutorService’s Executors.newSingleThreadExecutor() instance.
+In the UsingSingleThreadExecutor, we iterate through the test cases in the Config file corresponding to the input program file and we execute the tasks specified in the TracePrint using the ExecutorService’s Executors.newSingleThreadExecutor() instance.
 This will run each of the threads consecutively and the execution traces of each of the files are printed in files- ExecutionTrace_0, ExecutionTrace_1, ExecutionTrace_2.
-Each file corresponds to the execution trace corresponding to the input specified by the Config file.
+Each file corresponds to the execution trace corresponding to the test cases specified by the Config file.
 
 
 ### 2) Creation of the Mutation Matrix: ###
@@ -44,14 +44,16 @@ For example, a “==“ would be replaced by a “!=“
 
 ### 5) Replacing method body using Javassist:###
 The control is again returned to the main of the Launcher again and from here, the ReplaceMethodBody.java’s, createMutation1() is called which uses JAVASSIST, which will replace the old method of the the program with the newly modified Method’s Code Strings by creating a new CtMethod object using CtNewMethod.make().
-The ExecutorService now executes MutationThread to generate mutations of the Input.
+The ExecutorService now executes MutationThread to generate mutations of the Input original Instrumented Java class.
 
 The new method is written to the CtClass and the updated CtClass is converted to Class type and it is loaded to the Classloader. 
 The updated class’s byte code is obtained and the method is invoked by passing the same arguments from the Config file that was initially passed to get the initial Execution Traces.
 This will build MutationTrace files containing the instrumented outputs of each of the Mutated Programs.
 
 ### 6) Comparing Traces ###
-Once the Mutation Trace files have been created, the compareTraces() method compares each of the MutationTraces against the ExecutionTrace created for the corresponding Input from the Config File. 
+Once the Mutation Trace files have been created, the compareTraces() method compares each of the MutationTraces against the ExecutionTrace created for the corresponding test cases from the Config File. 
+If the traces are the same,then it means that mutant has survived and the test cases haven't killed the mutant.
+If the traces are different, then it means that the mutant has been killed by the test cases.
 If the Mutation results in an exception, the resulting exception is printed out to the MutationTrace file.
 
 
