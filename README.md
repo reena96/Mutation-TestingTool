@@ -12,8 +12,8 @@
 #### -Run tianma.learn.ds.Launcher.Launcher.java
 
 ### 1) Save Execution Trace: ###
-In our project, we collect the instrumented byte code from Homework 2 
-We use reflection on the instrumented file and we obtain the byte code of the instrumented file 
+In our project, we collect the instrumented byte code from Homework 2. 
+We use reflection on the instrumented file and we obtain the byte code of the instrumented file.
 We run our instrumented byte code against the test cases specified in the Config file.
 For doing this, Run UsingSingleThreadExecutor.java
 Run this file in order to obtain the ExecutionTrace of the original file.
@@ -23,7 +23,7 @@ Each file corresponds to the execution trace corresponding to the test cases spe
 
 
 ### 2) Creation of the Mutation Matrix: ###
-Now, start the Launcher by running Launcher.java
+Now, start the Launcher by running Launcher.java.
 Using the ExecutionTraces as input, the Mutator.java iterates through the lines and creates the hash map with 
 ####  KEY- Operator list 
 ####  VALUE - the concatenated string containing Line number, method name, statement type, expression and the list of operators that the expression contains 
