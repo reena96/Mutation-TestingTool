@@ -1,6 +1,11 @@
 ## Mutation Testing ##
 Mutation Testing is a type of software testing where we mutate/change certain statements in the source code for determining the effectiveness of the test set in finding errors and isolating the deviations. If your test set fails against the mutant code (it doesn’t give the same output as with the original code), then the mutation is killed. if your test set passes, then the mutation lives on. The quality of your tests can be gauged from the percentage of mutations killed. The changes in mutant program are kept extremely small, so it does not affect the overall objective of the program. This method is also called as Fault based testing strategy as it involves creating fault in the program
 
+Existing Mutation Testing Tools: 
+MuJava : https://cs.gmu.edu/~offutt/mujava/
+Pitest : http://pitest.org/
+
+We have observed the way the existing muation testing systems work to build our own muation testing tool
 
 ## Tasks being performed ##
 #### 1)Save Execution Trace:
