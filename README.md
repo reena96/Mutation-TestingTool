@@ -5,7 +5,7 @@ Existing Mutation Testing Tools:
 MuJava : https://cs.gmu.edu/~offutt/mujava/
 Pitest : http://pitest.org/
 
-We have observed the way the existing muation testing systems work to build our own muation testing tool
+We have observed the way the existing mutation testing systems work to build our own mutation testing tool
 
 ## Tasks being performed ##
 #### 1)Save Execution Trace:
